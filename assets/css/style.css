@@ -302,10 +302,9 @@ section {
   left: 0;
 }
 
-.section-title p {
-  margin-bottom: 0;
+.section-time {
+  padding-bottom: 10px;
 }
-
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -414,7 +413,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# Portfolio
 --------------------------------------------------------------*/
 #portfolio h2 {
   margin: 0 0 10px 0;
@@ -525,18 +524,16 @@ section {
 /*--------------------------------------------------------------
 # Time options
 --------------------------------------------------------------*/
-
-.portfolio #portfolio-flters {
-  padding: 0;
-  margin: 0 auto 35px auto;
+.time #time-flters {
+  margin: 0 auto 5px auto;
   list-style: none;
   text-align: center;
-  background: #fff;
+  background:   #f8f9f9;
   border-radius: 50px;
-  padding: 2px 15px;
+  padding: 2px 5px;
 }
 
-.portfolio #portfolio-flters li {
+.time #time-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -549,11 +546,11 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.time #time-flters li:hover, .time #time-flters li.filter-active {
   color:  #f1948a;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.time #time-flters li:last-child {
   margin-right: 0;
 }
 
