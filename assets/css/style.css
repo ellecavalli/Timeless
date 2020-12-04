@@ -555,6 +555,45 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Side column options
+--------------------------------------------------------------*/
+.aside:before {
+  content: " – ";
+  background-color: #ffffff !important;
+}
+.aside:after {
+  content: " – ";
+  background-color: #ffffff !important;
+}
+
+q:before {
+  content: "“";
+  background-color: #ffffff !important;
+}
+q:after {
+  content: "”";
+  background-color: #ffffff !important;
+}
+q.speech:before {
+  content: "«";
+  background-color: #ffffff !important;
+}
+q.speech:after {
+  content: "»";
+  background-color: #ffffff !important;
+}
+
+.text-aside {
+  background-color: #ffddff;
+}
+
+.text-speeches {
+  background-color: #ddffdd;
+}
+.text-quotes {
+  background-color: #ffffdd;
+}
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
