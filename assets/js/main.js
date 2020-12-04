@@ -137,16 +137,16 @@
   });
 
   // Switcher style
-  $(".1500").on('click', function() {
+  $(".time1500").on('click', function() {
     $("#stylez").attr("href", "asset/css/1500.css");
   });
-  $(".1800").on('click', function() {
+  $(".time1800").on('click', function() {
     $("#stylez").attr("href", "asset/css/1800.css");
   });
-  $(".1980").on('click', function() {
+  $(".time1980").on('click', function() {
     $("#stylez").attr("href", "asset/css/1980.css");
   });
-  $(".2040").on('click', function() {
+  $(".time2040").on('click', function() {
     $("#stylez").attr("href", "asset/css/2040.css");
   });
 
