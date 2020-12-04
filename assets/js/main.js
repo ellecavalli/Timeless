@@ -136,7 +136,8 @@
     aos_init();
   });
 
-  // we should put a js for the swither among styles, probably the one that vincenzo made
+  // Switcher
+
 
 
 })(jQuery);
