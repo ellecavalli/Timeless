@@ -166,7 +166,7 @@
   function main() {
     $.ajax({
       method: 'GET',
-      url: 'filelist.json',
+      url: 'asset/js/filelist.json',
       success: function(d) {
         for (var i=0; i<d.length; i++) {
           $('#list').append(listItemTpl.tpl({url:d[i].url, label: d[i].label}))
