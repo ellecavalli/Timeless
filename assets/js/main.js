@@ -137,3 +137,230 @@
   })
 
 })(jQuery);
+String.prototype.tpl = function(o) {
+			var r = this ;
+			for (var i in o) {
+				r = r.replace(new RegExp("\\$"+i, 'g'),o[i])
+			}
+			return r
+		}
+
+		var listItemTpl = `<li><a href='#' onclick='load("$url")'>$label</a></li>`
+
+		$(document).ready(main);
+
+		function main() {
+			$.ajax({
+				method: 'GET',
+				url: 'assets/js/filelist.json',
+				success: function(d) {
+					for (var i=0; i<d.length; i++) {
+						$('#list').append(listItemTpl.tpl({url:d[i].url, label: d[i].label}))
+					}
+				},
+				error: function() {
+					alert('No document to show')
+				}
+			});
+
+			$('#showperson').click(function() {
+				if (this.checked)
+					$('.person').addClass('text-person')
+				else
+					$('.person').removeClass('text-person')
+			})
+			$('#showplace').click(function() {
+				if (this.checked)
+					$('.place').addClass('text-place')
+				else
+					$('.place').removeClass('text-place')
+			})
+			$('#showasides').click(function() {
+				if (this.checked)
+					$('.aside').addClass('text-aside')
+				else
+					$('.aside').removeClass('text-aside')
+			})
+			$('#showspeeches').click(function() {
+				if (this.checked)
+					$('q.speech').addClass('text-speeches')
+				else
+					$('q.speech').removeClass('text-speeches')
+			})
+			$('#showquotes').change(function() {
+				if (this.checked)
+					$('q:not(.speech)').addClass('text-quotes')
+				else
+					$('q:not(speech)').removeClass('text-quotes')
+			})
+		}
+
+		function load(file) {
+			$.ajax({
+				method: 'GET',
+				url: file,
+				success: function(d) {
+					$('#file').html(d)
+					$('.show').prop("checked", false)
+					addIds()
+					filltabs()
+					$('#title').html($('#file h1'))
+				},
+				error: function() {
+					alert('Could not load file '+file)
+				}
+			});
+		}
+
+		function addIds() {
+			addId('.person','person')
+			addId('.place','place')
+			addId('.aside','aside')
+			addId('q.speech', 'speech')
+			addId('q:not(.speech)', 'quote')
+		}
+
+		function addId(what, prefix) {
+			var id = '0'
+			var elements = $(what);
+			for (var i=0; i<elements.length; i++) {
+				elements[i].id = prefix + "-" + id++
+			}
+		}
+		function filltabs(){
+			fillInfo("#file", "#info")
+			filltab("#file .person","list-person","#person")
+			filltab("#file .place","list-place","#place")
+			filltab("#file .aside","list-aside","#asides")
+			filltab("#file q.speech","list-speech","#speeches")
+			filltab("#file q:not(.speech)","list-quote","#quotes")
+		}
+
+		function fillInfo(from, where) {
+			var item = `
+				<p class="list title"><b>Title: </b> $title</p>
+				<p class="list author"><b>Author: </b> $author</p>
+				<p class="list author"><b>Headings: </b><ul>$headings</ul></p>
+				<p class="list author"><b>Keywords: </b><ul>$keywords</ul></p>
+				` ;
+			$(where).empty();
+
+			var title = $(from + ' h1')[0].innerText
+			var author = $(from + ' .byline')[0].innerText
+			var headingList = $(from + ' h2')
+			var keywordList = $(from + ' meta[name="keywords"]').prop('content').split(', ')
+			var headings = ""
+			var keywords = ""
+			for (var i=0; i<headingList.length; i++) {
+				headings += "<li class='small'>"+headingList[i].innerHTML+"</li>"
+			}
+			for (var i=0; i<keywordList.length; i++) {
+				keywords += "<li class='small'>"+keywordList[i]+"</li>"
+			}
+			$(where).append(item.tpl( {
+				author: author,
+				title: title,
+				headings: headings,
+				keywords: keywords
+			}))
+		}
+
+		function filltab(what,style,where) {
+			var list = `<li class="list $style"><a href="#" onclick="goto('$place')">$content</a></li>`
+			var elements = $(what);
+			$(where+' ul').empty();
+			for (var i=0; i<elements.length; i++) {
+				$(where+' ul').append(list.tpl({
+					style:style,
+					place: '#'+elements[i].id,
+					content: elements[i].innerHTML
+				}) )
+			}
+		}
+
+		function goto(id) {
+			var t = $(id)[0].offsetTop;
+			$('body').animate({ scrollTop: t }, 200);
+			$(id).addClass('animate');
+			setTimeout(function(){
+				$(id).removeClass('animate');
+			},5000);
+		}
+
+		function textToAudio() {
+			let msg = document.getElementById("readAloud").textContent;
+
+			let speech = new SpeechSynthesisUtterance();
+			speech.lang = "en-US";
+
+			speech.text = msg;
+			speech.volume = 1;
+			speech.rate = 1.5;
+			speech.pitch = 1;
+
+			window.speechSynthesis.speak(speech);
+		}
+
+		function textCancel1() {
+
+			let speech = new SpeechSynthesisUtterance();
+
+			window.speechSynthesis.cancel(speech);
+		}
+
+		function textPause() {
+
+			let speech = new SpeechSynthesisUtterance();
+
+			window.speechSynthesis.pause(speech);
+		}
+
+		function textResume() {
+			let msg = document.getElementById("readAloud").textContent;
+
+			let speech = new SpeechSynthesisUtterance();
+			speech.lang = "en-US";
+
+			speech.text = msg;
+			speech.volume = 1;
+			speech.rate = 1;
+			speech.pitch = 1;
+
+			window.speechSynthesis.resume(speech);
+		}
+
+		$(".1500").on('click', function() {
+			$("#stylez").attr("href", "first.css");
+		});
+		$(".1800").on('click', function() {
+			$("#stylez").attr("href", "second.css");
+		});
+		$(".1900").on('click', function() {
+			$("#stylez").attr("href", "third.css");
+		});
+		$(".1950").on('click', function() {
+			$("#stylez").attr("href", "futurism.css");
+		});
+		$(".1980").on('click', function() {
+			$("#stylez").attr("href", "second.css");
+		});
+		$(".2040").on('click', function() {
+			$("#stylez").attr("href", "third.css");
+		});
+
+		$("#fSize").click(function(){
+      $("body").toggleClass("foSize");
+    });
+
+		$("#dMode").click(function(){
+       $("body").toggleClass("daMode");
+			 if ($("body").hasClass("daMode")) {
+	       $(".tab-pane").addClass("whiteBg");
+				 $("#info").addClass("blackInf");
+				 $("#checkblist").addClass("blackInf");
+				 $(".h3fcol").addClass("blackInf");
+				 $("#footerInd3").addClass("blackInf");
+				 $(".timeX").addClass("nightBlue");
+				 $(".timeY").addClass("nightBlue");
+	     }
+    });
