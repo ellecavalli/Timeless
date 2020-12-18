@@ -91,7 +91,7 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="time-flters">
               <li data-filter="*" class="time1500">1600</li>
-              <li data-filter="" class="time1800">?</li>
+              <li data-filter="" class="time1800">19??</li>
               <li data-filter="" class="time1980">1960</li>
               <li data-filter="" class="time2040">2021</li>
             </ul>
@@ -291,6 +291,9 @@
     }
   }
   function filltabs(){
+    fillInfo("#file", "#info")
+    filltab("#file .person","list-person","#person")
+    filltab("#file .place","list-place","#place")
     filltab("#file .aside","list-aside","#asides")
     filltab("#file q.speech","list-speech","#speeches")
     filltab("#file q:not(.speech)","list-quote","#quotes")
@@ -317,6 +320,29 @@
       $(id).removeClass('animate');
     },5000);
   }
+
+  $(".1500").on('click', function() {
+    $("#stylez").attr("href", "first.css");
+  });
+  $(".1800").on('click', function() {
+    $("#stylez").attr("href", "second.css");
+  });
+  $(".1900").on('click', function() {
+    $("#stylez").attr("href", "third.css");
+  });
+  $(".1950").on('click', function() {
+    $("#stylez").attr("href", "futurism.css");
+  });
+  $(".1980").on('click', function() {
+    $("#stylez").attr("href", "second.css");
+  });
+  $(".2040").on('click', function() {
+    $("#stylez").attr("href", "third.css");
+  });
+
+  $("#fSize").click(function(){
+    $("body").toggleClass("foSize");
+  });
 
   </script>
 
