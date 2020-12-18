@@ -26,7 +26,7 @@ $(document).ready(main);
 function main() {
   $.ajax({
     method: 'GET',
-    url: 'filelist.json',
+    url: 'assets/js/filelist.json',
     success: function(d) {
       for (var i = 0; i < d.length; i++) {
         $('#list').append(listItemTpl.tpl({
