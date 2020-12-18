@@ -2,18 +2,18 @@
 [
 	{
 		"label": "Trigger",
-		"url": "asset/articles/trigger.html"
+		"url": "trigger.html"
 	},
 	{
 		"label": "Japan's prisons",
-		"url": "asset/articles/bloomberg.html"
+		"url": "bloomberg.html"
 	},
 	{
-		"label": "Trigger",
-		"url": "asset/articles/nytimes.html"
+		"label": "NYtimes",
+		"url": "nytimes.html"
 	},
 	{
-		"label": "Trigger",
-		"url": "asset/articles/roller-stone.html"
+		"label": "roller-stone",
+		"url": "roller-stone.html"
 	}
 ]
