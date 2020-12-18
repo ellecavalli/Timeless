@@ -136,18 +136,4 @@
     aos_init();
   })
 
-  // Switcher style
-  $(".time1500").on('click', function() {
-    $("#stylez").attr("href", "asset/css/1500.css");
-  });
-  $(".time1800").on('click', function() {
-    $("#stylez").attr("href", "asset/css/1800.css");
-  });
-  $(".time1980").on('click', function() {
-    $("#stylez").attr("href", "asset/css/1980.css");
-  });
-  $(".time2040").on('click', function() {
-    $("#stylez").attr("href", "asset/css/2040.css");
-  });
-
 })(jQuery);
