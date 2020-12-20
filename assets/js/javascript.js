@@ -13,7 +13,7 @@ $(document).ready(main);
 function main() {
   $.ajax({
     method: 'GET',
-    url: 'articlesList.json',
+    url: 'assets/js/articlesList.json',
     success: function(d) {
       for (var i=0; i<d.length; i++) {
         $('#list').append(listItemTpl.tpl({url:d[i].url, label: d[i].label}))
