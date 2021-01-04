@@ -492,20 +492,20 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
+  color: ;
   font-size: 28px;
   text-align: center;
-  background: rgb(202, 207, 210);
+  background: ;
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgb(202, 207, 210);
+  background: ;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
-  background: rgb(202, 207, 210);
+  background: ;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -513,11 +513,11 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 1;
+  opacity: 0;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
-  opacity: 1;
+  opacity: 0;
   bottom: 0;
 }
 
@@ -531,7 +531,7 @@ section {
   transition: .5s ease;
   opacity:0;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   padding: 20px;
   text-align: center;
 }
