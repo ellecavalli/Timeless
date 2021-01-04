@@ -479,7 +479,7 @@ section {
   opacity: 0;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+/*.portfolio .portfolio-wrap .portfolio-links {
   opacity: 1;
   left: 0;
   right: 0;
@@ -492,34 +492,34 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: ;
+  color: #fff;
   font-size: 28px;
   text-align: center;
-  background: ;
+  background: rgb(202, 207, 210);
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: ;
+  background: rgb(202, 207, 210);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
-  background: ;
-}
+  background: rgb(202, 207, 210);
+} */
 
 .portfolio .portfolio-wrap:hover::before {
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0;
+  opacity: 1;
 }
 
-.portfolio .portfolio-wrap:hover .portfolio-links {
-  opacity: 0;
+/*.portfolio .portfolio-wrap:hover .portfolio-links {
+  opacity: 1;
   bottom: 0;
-}
+} */
 
 .overlay {
   position: absolute;
@@ -530,8 +530,7 @@ section {
   width: 100%;
   transition: .5s ease;
   opacity:0;
-  color: white;
-  font-size: 15px;
+  font-size: 20px;
   padding: 20px;
   text-align: center;
 }
