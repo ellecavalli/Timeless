@@ -517,7 +517,7 @@ section {
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
-  opacity: 1;
+  opacity: 0;
   bottom: 0;
 }
 
