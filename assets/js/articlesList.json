@@ -9,6 +9,10 @@
 	},
 	{
 		"label": "Video Game are better",
-		"url": "articolo1.html"
+		"url": "videogame.html"
+	},
+	{
+		"label": "This design generation has failed",
+		"url": "designgen.html"
 	}
 ]
