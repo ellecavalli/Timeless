@@ -592,7 +592,13 @@ q.speech:after {
   padding: 8px;
 }
 
-#file tr:nth-child(even) {background-color: #ffe6e6;}
+#file th {
+  background-color: #f2f2f2;
+}
+
+#file tr:nth-child(even) {
+  background-color: #ffe6e6;
+}
 
 /*--------------------------------------------------------------
 # Footer
