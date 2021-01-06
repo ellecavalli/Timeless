@@ -587,13 +587,13 @@ q.speech:after {
 	width: 100%;
 }
 
+#file th {
+  background-color: #f2f2f2;
+}
+
 #file th, td {
   text-align: left;
   padding: 8px;
-}
-
-#file th {
-  background-color: #f2f2f2;
 }
 
 #file tr:nth-child(even) {
