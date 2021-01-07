@@ -226,7 +226,7 @@
 
 <p>To select the food most similar to the local food we started with the estimated nutrient intake from the local food composition table. We first compared total energy intake for 100 g of that food estimated from the local food composition table. The food with the most similar total energy intake per 100 g of that food on the USDA nutrient database was given a matching score of 1. We repeated this process with the next nutrient and so on, until all the entries for that particular food group were exhausted. The food in the USDA nutrient database with the highest total watching score was considered as being the closest to the local food. In case of a tie we considered the closest match with potassium for fruits and vegetables, total fat for dairy and meats, protein for eggs, and carbohydrates for cereals. The algorithm to select fruits is described in Figure. We also considered the following additional rule. For fruits and vegetables we considered raw or unprocessed categories only unless specified otherwise. The process to select rice using this algorithm is described in Table <a data-track="click" data-track-label="link" data-track-action="table anchor" href="/articles/10.1186/1475-2891-5-2#Tab2">2</a>. As the methods for rice preparation differ from place to place, we selected rice from the USDA nutrient database using the nutrient values of uncooked rice and then calculated the nutrient value for cooked rice for each country.</p>
 <figure>
-<img src="imgart/fig.1.jpg">
+<img src="imgart/fig.1.jpg"class="responsive">
  <figcaption>Algorithm to select a fruit from the USDA nutrient database using local food composition database as a starting point.</figcaption>
  </figure>
  <table>
@@ -333,6 +333,246 @@
 <p>Table <a data-track="click" data-track-label="link" data-track-action="table anchor" href="/articles/10.1186/1475-2891-5-2#Tab2">2</a> contains a list of the different types of uncooked rice in the USDA nutrient database, and the nutrient values for uncooked rice from the respective local food composition tables. At the end of the table there is the result of applying our proposed algorithm to select the rice in the USDA nutrient database that is closest in nutrient content to the local rice.</p>
 
 <p>The nutrient content of four recipes of stew (100 g) varied depending upon the food composition table that was used in the estimation in all the countries that we examined (Table <a data-track="click" data-track-label="link" data-track-action="table anchor" href="/articles/10.1186/1475-2891-5-2#Tab3">3</a>). For instance, carbohydrate intake estimated from the PURE-USDA database for Argentina was 11.0 g versus 12.5 g estimated using the same data but the PURE-USDA database for Zimbabwe (Table <a data-track="click" data-track-label="link" data-track-action="table anchor" href="/articles/10.1186/1475-2891-5-2#Tab3">3</a>). There were differences in micronutrient and macronutrient estimations depending upon the choice of the database.</p>
+<table>
+      <caption>
+        <p>Table 4. <i>Comparison of nutrient estimates of 100 g beef stew analyzed by Pure-USDA and Zimbabwe-USDA nutrient databases using mean intake and intraclass correlation coefficients (ICC)
+
+</i></p>
+        <p class="footNote">From: Food composition database development for between country comparisons </p>
+        <p class="footNote">*(Argentina N = 57, Brazil N = 100, UAE N = 99) </p>
+
+      </caption>
+
+      <thead>
+        <tr>
+          <th>Countries</th>
+          <th>Energy/kcal </th>
+          <th>Protein/g  </th>
+          <th>Fat/g </th>
+          <th>CHO/g  </th>
+          <th>Ca/mg</th>
+         <th>P/mg </th>
+          <th>Fe/mg  </th>
+          <th>K/mg </th>
+          <th>Na/mg  </th>
+          <th>VitA/Req   </th>
+          <th>VitC/mg </th>
+           <th>Folate/mg</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td ><b>Argentina</b></td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+           <td></td>
+          <td ></td>
+          <td></td>
+          <td> </td>
+          <td></td>
+           <td></td>
+          <td ></td>
+          <td></td>
+          <td> </td>
+
+
+        </tr>
+        <tr>
+<td >PURE-USDA</td>
+          <td>48.5 </td>
+          <td>2.3 </td>
+          <td> 2.4</td>
+           <td>4.5</td>
+          <td >6.8</td>
+          <td>34.1</td>
+          <td> 0.28</td>
+          <td>146.7</td>
+           <td>149.6</td>
+          <td >20.4</td>
+          <td>6.9</td>
+          <td>5.5 </td>
+        </tr>
+        <tr>
+          <td>Colombia </td>
+          <td>1944 </td>
+          <td>1990</td>
+          <td>600</td>
+           <td>32</td>
+          <td >6.8</td>
+          <td>34.1</td>
+          <td> 0.28</td>
+          <td>146.7</td>
+           <td>149.6</td>
+          <td >20.4</td>
+          <td>6.9</td>
+          <td>5.5 </td>
+
+  </tr>
+        <tr>
+          <td>Chile </td>
+          <td>1961</td>
+          <td>1997</td>
+          <td>~2000</td>
+           <td>25</td>          
+          <td >6.8</td>
+          <td>34.1</td>
+          <td> 0.28</td>
+          <td>146.7</td>
+           <td>149.6</td>
+          <td >20.4</td>
+          <td>6.9</td>
+          <td>5.5 </td>
+
+  </tr>
+        <tr>
+          <td>Zimbabwe</td>
+          <td>1989 </td>
+          <td>Not available</td>
+          <td>201</td>
+           <td>18</td>
+          <td >6.8</td>
+          <td>34.1</td>
+          <td> 0.28</td>
+          <td>146.7</td>
+           <td>149.6</td>
+          <td >20.4</td>
+          <td>6.9</td>
+          <td>5.5 </td>
+
+  </tr>
+        <tr>
+          <td>UAE </td>
+          <td>Do not exist </td>
+          <td>Do not exist</td>
+          <td>Do not exist</td>
+           <td>Do not exist</td>
+          <td >6.8</td>
+          <td>34.1</td>
+          <td> 0.28</td>
+          <td>146.7</td>
+           <td>149.6</td>
+          <td >20.4</td>
+          <td>6.9</td>
+          <td>5.5 </td>
+
+  </tr>
+        <tr>
+          <td>USDA, SR18</td>
+          <td>1973</td>
+          <td>2004</td>
+          <td>7146</td>
+           <td>136</td>
+          <td >6.8</td>
+          <td>34.1</td>
+          <td> 0.28</td>
+          <td>146.7</td>
+           <td>149.6</td>
+          <td >20.4</td>
+          <td>6.9</td>
+          <td>5.5 </td>
+
+  </tr>
+        <tr>
+          <td>USDA, SR18</td>
+          <td>1973</td>
+          <td>2004</td>
+          <td>7146</td>
+           <td>136</td>
+          <td >6.8</td>
+          <td>34.1</td>
+          <td> 0.28</td>
+          <td>146.7</td>
+           <td>149.6</td>
+          <td >20.4</td>
+          <td>6.9</td>
+          <td>5.5 </td>
+
+  </tr>
+        <tr>
+          <td>USDA, SR18</td>
+          <td>1973</td>
+          <td>2004</td>
+          <td>7146</td>
+           <td>136</td>
+          <td >6.8</td>
+          <td>34.1</td>
+          <td> 0.28</td>
+          <td>146.7</td>
+           <td>149.6</td>
+          <td >20.4</td>
+          <td>6.9</td>
+          <td>5.5 </td>
+
+  </tr>
+        <tr>
+          <td>USDA, SR18</td>
+          <td>1973</td>
+          <td>2004</td>
+          <td>7146</td>
+           <td>136</td>
+          <td >6.8</td>
+          <td>34.1</td>
+          <td> 0.28</td>
+          <td>146.7</td>
+           <td>149.6</td>
+          <td >20.4</td>
+          <td>6.9</td>
+          <td>5.5 </td>
+
+  </tr>
+        <tr>
+          <td>USDA, SR18</td>
+          <td>1973</td>
+          <td>2004</td>
+          <td>7146</td>
+           <td>136</td>
+          <td >6.8</td>
+          <td>34.1</td>
+          <td> 0.28</td>
+          <td>146.7</td>
+           <td>149.6</td>
+          <td >20.4</td>
+          <td>6.9</td>
+          <td>5.5 </td>
+
+  </tr>
+        <tr>
+          <td>USDA, SR18</td>
+          <td>1973</td>
+          <td>2004</td>
+          <td>7146</td>
+           <td>136</td>
+          <td >6.8</td>
+          <td>34.1</td>
+          <td> 0.28</td>
+          <td>146.7</td>
+           <td>149.6</td>
+          <td >20.4</td>
+          <td>6.9</td>
+          <td>5.5 </td>
+
+  </tr>
+        <tr>
+          <td>USDA, SR18</td>
+          <td>1973</td>
+          <td>2004</td>
+          <td>7146</td>
+           <td>136</td>
+          <td >6.8</td>
+          <td>34.1</td>
+          <td> 0.28</td>
+          <td>146.7</td>
+           <td>149.6</td>
+          <td >20.4</td>
+          <td>6.9</td>
+          <td>5.5 </td>
+
+  </tr>
+
+</tbody>
+    </table>
 
 <li><a href="https://nutritionj.biomedcentral.com/articles/10.1186/1475-2891-5-2/tables/3">See Table 3 Nutrients content of 100 g beef stew analyzed against three food composition tables: Local, country specific PURE-USDA, and Zimbabwe-USDA food composition tables</a></li>
 
