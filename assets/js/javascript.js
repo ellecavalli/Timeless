@@ -77,9 +77,9 @@ function addId(what, prefix) {
 }
 function filltabs(){
   fillInfo("#file", "#info")
-  filltab("#file .aside","list-aside","#asides")
-  filltab("#file q.speech","list-speech","#speeches")
-  filltab("#file q:not(.speech)","list-quote","#quotes")
+  filltab("#file .aside","list-aside","#asides") //* fill it with person *//
+  filltab("#file q.speech","list-speech","#speeches") //* fill it with places *//
+  filltab("#file q:not(.speech)","list-quote","#quotes") //* fill it with dates *// 
 }
 
 function fillInfo(from, where) {
