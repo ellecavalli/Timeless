@@ -13,7 +13,7 @@ $(document).ready(main);
 function main() {
   $.ajax({
     method: 'GET',
-    url: 'assets/js/articlesList.json',
+    url: 'assets/js/techArticlesList.json',
     success: function(d) {
       for (var i=0; i<d.length; i++) {
         $('#list').append(listItemTpl.tpl({url:d[i].url, label: d[i].label}))
@@ -79,7 +79,7 @@ function filltabs(){
   fillInfo("#file", "#info")
   filltab("#file .aside","list-aside","#asides") //* fill it with person *//
   filltab("#file q.speech","list-speech","#speeches") //* fill it with places *//
-  filltab("#file q:not(.speech)","list-quote","#quotes") //* fill it with dates *// 
+  filltab("#file q:not(.speech)","list-quote","#quotes") //* fill it with dates *//
 }
 
 function fillInfo(from, where) {
