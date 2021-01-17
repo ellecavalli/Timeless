@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.5;
   color: #32344b;
@@ -21,16 +21,16 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
 }
 
 p {
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 #file {
-  border-radius: 30px;
+  border-radius: 30%;
   background: #e6e7ee;
   box-shadow:  20px 20px 40px #c2c5ca,
                -20px -20px 40px #ffffff;
