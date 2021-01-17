@@ -87,12 +87,21 @@ p {
 /*--------------------------------------------------------------
 # Sidebar
 --------------------------------------------------------------*/
-.tab-pane {
-  margin-top: 0px;
-  border-radius: 20px;
-  background: #e6e7ee;
-  box-shadow: inset 20px 20px 40px #c2c5ca,
-              inset -20px -20px 40px #ffffff;
+.checkbox > input[type=checkbox].checkbox {
+  -webkit-appearance: none;
+  background-color: #e6e7ee;
+  box-shadow:  5px 25px 10px #c2c5ca,
+               -5px -5px 100px #ffffff;
+  border-radius: 20%;
+  outline: none;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.checkbox > input[type=checkbox].checkbox {
+  background-color: #f1948a;
+  box-shadow:  inset 5px 25px 10px #c2c5ca,
+               inset -5px -5px 100px #ffffff;
 }
 /*--------------------------------------------------------------
 # Images
