@@ -35,9 +35,8 @@ p {
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron {
-  background-image: url("assets/css/ArtNouveau/florealframe.png");
+  background-image: url("assets/css/ArtNouveau/florealbg.jpg");
   background-size: cover;
-  background-color: #fef4c8
 }
 
 .jumbotron  h1{
