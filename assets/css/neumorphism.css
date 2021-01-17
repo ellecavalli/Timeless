@@ -8,7 +8,7 @@ body {
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
-  color: #44476A;
+  color: #32344b;
   text-align: left;
   background-color: #e6e7ee;
 }
@@ -31,18 +31,18 @@ p {
 
 #file {
   border-radius: 50px;
-  background: #ebebeb;
-  box-shadow:  20px 20px 60px #c8c8c8,
-               -20px -20px 60px #ffffff;
+  background: #e6e7ee;
+  box-shadow:  20px 20px 60px #c2c5ca,
+               -20px -20px 60px #f3f3f6;
 }
 /*--------------------------------------------------------------
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron {
   border-radius: 50px;
-  background: #ebebeb;
-  box-shadow:  20px 20px 60px #c8c8c8,
-               -20px -20px 60px #ffffff;
+  background: #e6e7ee;
+  box-shadow:  20px 20px 60px #c2c5ca,
+               -20px -20px 60px #f3f3f6;
 }
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -53,9 +53,9 @@ p {
 --------------------------------------------------------------*/
 #time-filters {
   border-radius: 50px;
-  background: #ebebeb;
-  box-shadow:  20px 20px 60px #c8c8c8,
-               -20px -20px 60px #ffffff;
+  background: #e6e7ee;
+  box-shadow:  20px 20px 60px #c2c5ca,
+               -20px -20px 60px #f3f3f6;
 }
 /*--------------------------------------------------------------
 # Sidebar
