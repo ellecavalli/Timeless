@@ -34,6 +34,12 @@ p {
 /*--------------------------------------------------------------
 # Jumbotron
 --------------------------------------------------------------*/
+.jumbotron {
+  background-image: url("assets/css/ArtNouveau/florealframe.png");
+  background-size: cover;
+  background-color: #fef4c8
+}
+
 .jumbotron  h1{
   font-family: Eckmann-Schrift;
   font-size: 40px;
