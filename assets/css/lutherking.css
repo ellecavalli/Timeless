@@ -79,9 +79,9 @@ hr {
 # Images
 --------------------------------------------------------------*/
 figure img {
-  border: 1px solid #ffffff;
+  border: 10px solid #ffffff;
   border-radius: 4px;
-  padding: 80px;
+  padding: 0px;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
