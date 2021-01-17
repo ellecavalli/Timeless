@@ -6,9 +6,25 @@
 --------------------------------------------------------------*/
 body {
   margin: 0;
-  font-family: Eckmann-Schrift;
+  line-height: 1.5;
   text-align: left;
-  background-color: #AB2369;
+  background-color: #fef4c8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+#file {
+  font-family: Eckmann-Schrift;
+  font-size: 20px;
+  background-image: url(assets/css/ArtNouveau/frameartnou.png);
 }
 
 /*--------------------------------------------------------------
