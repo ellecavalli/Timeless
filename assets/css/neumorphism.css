@@ -64,11 +64,9 @@ figure img {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  box-shadow:
-    20px 20px 20px rgba(0,0,0,0.07),
-    -20px -20px 20px rgba(255,255,255,0.7),
-    6px 6px 6px rgba(0,0,0,0.09),
-    -6px -6px 6px rgba(255,255,255,0.9);
+  border-radius: 20%;
+  box-shadow:  10px 10px 20px #c2c5ca,
+               -10px -10px 20px #ffffff;
 }
 
 img {
