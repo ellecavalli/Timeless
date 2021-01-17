@@ -2,48 +2,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
-  margin: 0;
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 1rem;
-  font-weight: 300;
-  line-height: 1.5;
-  color: #32344b;
-  text-align: left;
-  background-color: #e6e7ee;
-}
 
-hr {
-    box-sizing: content-box;
-    height: 0;
-    overflow: visible;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-}
-
-p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-
-#file {
-  border-radius: 30px;
-  background: #e6e7ee;
-  box-shadow:  20px 20px 40px #c2c5ca,
-               -20px -20px 40px #ffffff;
-}
 /*--------------------------------------------------------------
 # Jumbotron
 --------------------------------------------------------------*/
-.jumbotron {
-  border-radius: 30px;
-  background: #e6e7ee;
-  box-shadow:  20px 20px 40px #c2c5ca,
-               -20px -20px 40px #ffffff;
-}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -60,8 +23,8 @@ p {
 # Images
 --------------------------------------------------------------*/
 img {
-  -webkit-filter: hue-rotate(185deg);
-    filter: hue-rotate(185deg);
+  -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 /*--------------------------------------------------------------
 # Tables
