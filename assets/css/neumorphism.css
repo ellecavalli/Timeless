@@ -24,11 +24,22 @@ body {
 }
 
 #file {
-  border-radius: 50px;
-  background: #e6e7ee;
-  box-shadow:  25px 25px 60px #d9d9d9,
-                 -25px -25px 60px #ffffff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #e6e7ee;
+  background-clip: border-box;
+  border: 0.0625rem solid rgba(243, 247, 250, 0.05);
+  border-radius: 0.55rem;
 }
+
+#file > hr {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 /*--------------------------------------------------------------
 # Jumbotron
 --------------------------------------------------------------*/
@@ -54,7 +65,14 @@ body {
 /*--------------------------------------------------------------
 # Images
 --------------------------------------------------------------*/
-
+img {
+  max-width: 180px;
+  border-radius: 0.55rem;
+  transform: translate(-50%, -30%);
+  position: absolute;
+  left: 50%;
+  transition: all 0.2s ease;
+}
 /*--------------------------------------------------------------
 # Tables
 --------------------------------------------------------------*/
