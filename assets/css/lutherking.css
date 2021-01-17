@@ -3,14 +3,14 @@
 # General
 --------------------------------------------------------------*/
 body {
- font-size: 14px;
-  font-weight: 200;
-  background-color: #DEB887
-  color: ##000000;
-  text-align: left;
+  margin: 0;
   font-family: "Nunito Sans", sans-serif;
-  letter-spacing: 0.01em;
-  line-height: 1.15;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.5;
+  color: #32344b;
+  text-align: left;
+  background-color: #e6e7ee;
 }
 
 
