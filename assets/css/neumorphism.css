@@ -122,9 +122,6 @@ img {
   text-align: center;
   box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
               -9px -9px 16px rgba(255, 255, 255, 0.6);
-  /*background: #e6e7ee;
-  box-shadow: inset 20px 20px 60px #c2c5ca,
-              inset -20px -20px 60px #ffffff; */
 }
 
 #file thead{
