@@ -7,18 +7,18 @@ body {
 
 #file {
   border-radius: 50px;
-  background: #e0edd4;
-  box-shadow:  20px 20px 60px #bec9b4,
-               -20px -20px 60px #fffff4;
+  background: #ebebeb;
+  box-shadow:  20px 20px 60px #c8c8c8,
+               -20px -20px 60px #ffffff;
 }
 /*--------------------------------------------------------------
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron {
   border-radius: 50px;
-background: #e0edd4;
-box-shadow:  20px 20px 60px #bec9b4,
-             -20px -20px 60px #fffff4;
+  background: #ebebeb;
+  box-shadow:  20px 20px 60px #c8c8c8,
+               -20px -20px 60px #ffffff;
 }
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -27,11 +27,21 @@ box-shadow:  20px 20px 60px #bec9b4,
 /*--------------------------------------------------------------
 # Time options
 --------------------------------------------------------------*/
-
+.time {
+  border-radius: 50px;
+  background: #ebebeb;
+  box-shadow:  20px 20px 60px #c8c8c8,
+               -20px -20px 60px #ffffff;
+}
 /*--------------------------------------------------------------
-# Side column choices
+# Sidebar
 --------------------------------------------------------------*/
-
+#sidebar {
+  border-radius: 50px;
+  background: #ebebeb;
+  box-shadow:  20px 20px 60px #c8c8c8,
+               -20px -20px 60px #ffffff;
+}
 /*--------------------------------------------------------------
 # Images
 --------------------------------------------------------------*/
