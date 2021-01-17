@@ -39,29 +39,14 @@ body {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
   padding: 20px 0;
   margin-bottom: 0;
   border-radius: 50px;
   background: #e6e7ee;
-  box-shadow:  25px 25px 60px #d9d9d9,
-               -25px -25px 60px #ffffff;
-
+  box-shadow:  15px 15px 40px #d9d9d9,
+               -15px -15px 40px #ffffff;
 }
 
-@media (max-width: 768px) {
-  .breadcrumbs .d-flex {
-    display: block !important;
-  }
-  .breadcrumbs ol {
-    display: block;
-  }
-  .breadcrumbs ol li {
-    display: inline-block;
-  }
-}
 /*--------------------------------------------------------------
 # Time options
 --------------------------------------------------------------*/
