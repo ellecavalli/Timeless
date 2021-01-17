@@ -63,15 +63,8 @@ p {
 /*--------------------------------------------------------------
 # Tables
 --------------------------------------------------------------*/
-.table {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 table {
-  width: 50px;
+  width: 600px;
   border-spacing: 0;
   color: #212121;
   text-align: center;
