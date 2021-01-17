@@ -543,28 +543,28 @@ section {
 --------------------------------------------------------------*/
 .aside:before {
   content: " – ";
-  background-color: #ffffff !important;
+  background-color: #ffffff;
 }
 .aside:after {
   content: " – ";
-  background-color: #ffffff !important;
+  background-color: #ffffff;
 }
 
 q:before {
   content: "“";
-  background-color: #ffffff !important;
+  background-color: #ffffff;
 }
 q:after {
   content: "”";
-  background-color: #ffffff !important;
+  background-color: #ffffff;
 }
 q.speech:before {
   content: "«";
-  background-color: #ffffff !important;
+  background-color: #ffffff;
 }
 q.speech:after {
   content: "»";
-  background-color: #ffffff !important;
+  background-color: #ffffff;
 }
 
 .text-aside {
