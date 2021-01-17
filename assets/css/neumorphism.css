@@ -31,8 +31,8 @@ body {
 .jumbotron {
   border-radius: 50px;
   background: #e6e7ee;
-  box-shadow:  35px 35px 70px #c8c8c8,
-               -35px -35px 70px #ffffff;
+  box-shadow:  30px 30px 65px #c8c8c8,
+               -30px -30px 65px #ffffff;
 }
 
 /*--------------------------------------------------------------
