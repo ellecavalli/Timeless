@@ -3,6 +3,7 @@
 # General
 --------------------------------------------------------------*/
 body {
+ margin: 0;
  font-size: 14px;
   font-weight: 600;
   background-color: #DEB887
@@ -11,10 +12,8 @@ body {
   color: rgba(0,0,0,0.5);
   text-align: left;
   font-family: "Nunito Sans", sans-serif;
-  width: calc(8.5in - 15em);
   letter-spacing: 0.01em;
   line-height: 1.15;
-  padding: 5em 10em 40em 5em;
 }
 hr {
     box-sizing: content-box;
