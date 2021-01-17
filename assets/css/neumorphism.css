@@ -139,8 +139,8 @@ img {
 
 .back-to-top:hover {
   color: #fff;
-  background: #f1948a;
+  background: #edb5af;
   box-shadow: 5px 5px 10px #c2c5ca,
-              -5px -5px 10px #ffffde;
+              -5px -5px 10px #ffffff;
   transition: background 0.2s ease-in-out;
 }
