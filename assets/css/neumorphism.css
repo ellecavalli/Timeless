@@ -64,7 +64,7 @@ figure img {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  border-radius: 20%;
+  border-radius: 5%;
   box-shadow:  10px 10px 20px #c2c5ca,
                -10px -10px 20px #ffffff;
 }
