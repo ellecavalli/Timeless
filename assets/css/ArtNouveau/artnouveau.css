@@ -34,14 +34,16 @@ p {
 /*--------------------------------------------------------------
 # Jumbotron
 --------------------------------------------------------------*/
-.jumbotron {
-  background-image: url("assets/css/ArtNouveau/florealbg.jpg");
-  background-size: cover;
+.jumbotron{
+	background-image: url('florealbg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .jumbotron  h1{
   font-family: Eckmann-Schrift;
   font-size: 40px;
+  color: #fff;
 }
 /*--------------------------------------------------------------
 # Breadcrumbs
