@@ -16,6 +16,29 @@ body {
   line-height: 1.15;
   padding: 5em 10em 40em 5em;
 }
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-weight: 400
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+#file {
+  border-radius: 30px;
+  background: #e6e7ee;
+  box-shadow:  20px 20px 40px #c2c5ca,
+               -20px -20px 40px #ffffff;
+}
 
 
 /*--------------------------------------------------------------
