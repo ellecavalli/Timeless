@@ -87,13 +87,12 @@ p {
 /*--------------------------------------------------------------
 # Sidebar
 --------------------------------------------------------------*/
-.checkbox {
-  background-color: #e6e7ee;
-  box-shadow:  5px 25px 10px #c2c5ca,
-               -5px -5px 100px #ffffff;
-  border-radius: 20%;
+.nav-item {
+  border-radius: 18px;
+  background: linear-gradient(145deg, #ffe9e7, #e6c4c2);
+  box-shadow:  6px 6px 14px #b39997,
+               -6px -6px 14px #ffffff;
 }
-
 /*--------------------------------------------------------------
 # Images
 --------------------------------------------------------------*/
