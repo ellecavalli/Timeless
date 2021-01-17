@@ -118,12 +118,27 @@ img {
 	border-collapse: collapse;
 	width: 100%;
   border-radius: 20px;
-  background: #e6e7ee;
+  color: #212121;
+  text-align: center;
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+              -9px -9px 16px rgba(255, 255, 255, 0.6);
+  /*background: #e6e7ee;
   box-shadow: inset 20px 20px 60px #c2c5ca,
-              inset -20px -20px 60px #ffffff;
+              inset -20px -20px 60px #ffffff; */
+}
+
+#file thead{
+  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6);
+}
+
+#file table>tbody>tr>td {
+  padding: 10px;
+  font-size: 14px;
+  position: relative;
 }
 
 #file th {
+  padding: 7px;
   background-color: #f2f2f2;
 }
 
