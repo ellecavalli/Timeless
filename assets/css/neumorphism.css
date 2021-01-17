@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 10px;
   font-weight: 300;
   line-height: 1.5;
   color: #32344b;
@@ -21,12 +21,14 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2px;
 }
 
 p {
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-left: 5px;
+    margin_right: 5px;
+    margin-bottom: 5px;
 }
 
 #file {
@@ -64,7 +66,7 @@ figure img {
   margin-left: auto;
   margin-right: auto;
   width: 80%;
-  border-radius: 5%;
+  border-radius: 1%;
   box-shadow:  10px 10px 20px #c2c5ca,
                -10px -10px 20px #ffffff;
 }
