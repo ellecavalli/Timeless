@@ -111,6 +111,28 @@ img {
 /*--------------------------------------------------------------
 # Tables
 --------------------------------------------------------------*/
+#file table {
+	max-width: 70%;
+	border-collapse: collapse;
+	width: 100%;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: inset 20px 20px 60px #d9d9d9,
+              inset -20px -20px 60px #ffffff;
+}
+
+#file th {
+  background-color: #f2f2f2;
+}
+
+#file th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+#file tr:nth-child(even) {
+  background-color: #ffe6e6;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
