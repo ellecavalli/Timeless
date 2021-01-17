@@ -30,6 +30,10 @@ p {
     margin-bottom: 16px;
 }
 
+span {
+  color: #32344b;
+}
+
 #file {
   border-radius: 30px;
   background: #e6e7ee;
