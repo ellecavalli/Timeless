@@ -74,7 +74,9 @@ img {
   -webkit-filter: hue-rotate(185deg);
     filter: hue-rotate(185deg);
 }
-
+ blockquote {
+   align-items: center;
+ }
 /*--------------------------------------------------------------
 # Tables
 --------------------------------------------------------------*/
