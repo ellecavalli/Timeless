@@ -127,8 +127,8 @@ img {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: linear-gradient(145deg, #f0fee3, #cad5bf);
-  box-shadow:  5px 5px 10px #9da694,
+  background: linear-gradient(145deg, #fff2e5, #e6cbc1);
+  box-shadow:  5px 5px 10px #b39e96,
                -5px -5px 10px #ffffff;
   color: #fff;
   transition: display 0.5s ease-in-out;
@@ -144,6 +144,8 @@ img {
 
 .back-to-top:hover {
   color: #fff;
-  background: #cce8b5;
+  background: linear-gradient(145deg, #ffd2b7, #e6b09a);
+  box-shadow:  5px 5px 10px #b38978,
+               -5px -5px 10px #ffffde;
   transition: background 0.2s ease-in-out;
 }
