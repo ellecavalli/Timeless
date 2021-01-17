@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 10px;
+  font-size: 50px;
   font-weight: 300;
   line-height: 1.5;
   color: #32344b;
@@ -30,8 +30,8 @@ p {
 }
 
 #article {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 #file {
