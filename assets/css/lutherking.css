@@ -86,8 +86,8 @@ figure img {
 }
 
 img {
-  -webkit-filter: grayscale(100%) blur(5px);
-    filter: grayscale(100%) blur(5px);
+  -webkit-filter: grayscale(100%) blur(2px);
+    filter: grayscale(100%) blur(2px);
 }
 
 
