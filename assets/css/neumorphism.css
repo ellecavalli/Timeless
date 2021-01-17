@@ -31,14 +31,45 @@ body {
 .jumbotron {
   border-radius: 50px;
   background: #e6e7ee;
-  box-shadow:  30px 30px 65px #c8c8c8,
-               -30px -30px 65px #ffffff;
+  box-shadow:  25px 25px 60px #d9d9d9,
+               -25px -25px 60px #ffffff;
 }
 
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #fafbfe;
+    border-radius: 0.55rem;
+}
 
+.breadcrumb-item + .breadcrumb-item {
+    padding-left: 0.5rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #66799e;
+    content: "/";
+}
+
+.breadcrumb-item + .breadcrumb-item:hover::before {
+    text-decoration: underline;
+}
+
+.breadcrumb-item + .breadcrumb-item:hover::before {
+    text-decoration: none;
+}
+
+.breadcrumb-item.active {
+    color: #ECF0F3;
+}
 
 /*--------------------------------------------------------------
 # Time options
