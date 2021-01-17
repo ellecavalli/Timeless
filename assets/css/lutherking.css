@@ -46,15 +46,7 @@ body {
 /*--------------------------------------------------------------
 # Images
 --------------------------------------------------------------*/
-figure img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  border-radius: 1%;
-  box-shadow:  10px 10px 20px #c2c5ca,
-               -10px -10px 20px #ffffff;
-}
+
 
 img {
   -webkit-filter: grayscale(100%);
@@ -62,16 +54,6 @@ img {
 }
 
 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  border-radius: 1%;
-  box-shadow:  10px 10px 20px #c2c5ca,
-               -10px -10px 20px #ffffff;
-  -webkit-filter: hue-rotate(185deg);
-          filter: hue-rotate(185deg);
-}
 /*--------------------------------------------------------------
 # Tables
 --------------------------------------------------------------*/
