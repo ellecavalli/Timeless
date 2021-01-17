@@ -124,17 +124,6 @@ img {
               -9px -9px 16px rgba(255, 255, 255, 0.6);
 }
 
-#file thead{
-  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6);
-  border-radius: 20px;
-}
-
-#file table>tbody>tr>td {
-  padding: 10px;
-  font-size: 14px;
-  position: relative;
-}
-
 #file th {
   padding: 7px;
   background-color: #f2f2f2;
