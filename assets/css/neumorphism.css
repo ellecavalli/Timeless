@@ -68,7 +68,7 @@ p {
   display: inline-block;
   padding: 10px 15px 8px 15px;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 200;
   line-height: 1;
   text-transform: uppercase;
   color: #272829;
@@ -111,3 +111,101 @@ img {
 /*--------------------------------------------------------------
 # Tables
 --------------------------------------------------------------*/
+table {
+    border-collapse: collapse;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #44476A;
+    background-color: transparent;
+}
+
+.table th,
+  .table td {
+    padding: 1rem;
+    vertical-align: top;
+    border-top: 0.0625rem solid #D1D9E6;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 0.125rem solid #D1D9E6;
+}
+
+.table tbody + tbody {
+    border-top: 0.125rem solid #D1D9E6;
+}
+
+.table-sm th,
+.table-sm td {
+    padding: 0.3rem;
+}
+
+.table-hover tbody tr:hover {
+    color: #44476A;
+    background-color: rgba(38, 40, 51, 0.03);
+}
+@media (max-width: 575.98px) {
+    .table-responsive-sm {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .table-responsive-sm > .table-bordered {
+        border: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .table-responsive-md {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .table-responsive-md > .table-bordered {
+        border: 0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .table-responsive-lg {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .table-responsive-lg > .table-bordered {
+        border: 0;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .table-responsive-xl {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .table-responsive-xl > .table-bordered {
+        border: 0;
+    }
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.table-responsive > .table-bordered {
+    border: 0;
+}
