@@ -32,11 +32,14 @@ p {
 
 #file {
   border-radius: 30px;
-  padding-left: 5px;
-  padding-right: 5px;
   background: #e6e7ee;
   box-shadow:  20px 20px 40px #c2c5ca,
                -20px -20px 40px #ffffff;
+}
+
+#file body {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 /*--------------------------------------------------------------
 # Jumbotron
