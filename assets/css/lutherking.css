@@ -64,8 +64,8 @@ figure img {
 }
 
 img {
-  -webkit-filter: hue-rotate(185deg);
-    filter: hue-rotate(185deg);
+  -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 blockquote {
