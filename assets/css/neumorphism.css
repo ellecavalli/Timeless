@@ -126,6 +126,7 @@ img {
 
 #file thead{
   box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6);
+  border-radius: 20px;
 }
 
 #file table>tbody>tr>td {
