@@ -3,27 +3,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-html {
-    font-family: sans-serif;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(38, 40, 51, 0);
-}
-
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-    display: block;
-}
-
-body {
-    margin: 0;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 1.5;
-    color: #44476A;
-    text-align: left;
-    background-color: #e6e7ee;
-}
 
 /*--------------------------------------------------------------
 # Jumbotron
