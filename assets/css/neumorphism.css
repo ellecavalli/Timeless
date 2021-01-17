@@ -39,38 +39,16 @@ body {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
   padding: 20px 0;
   margin-bottom: 0;
-  background: #fafbfe;
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
   border-radius: 50px;
-}
+  background: #e6e7ee;
+  box-shadow:  25px 25px 60px #d9d9d9,
+               -25px -25px 60px #ffffff;
 
-.breadcrumbs h2 {
-  font-size: 26px;
-  font-weight: 300;
-}
-
-.breadcrumbs ol {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 15px;
-}
-
-.breadcrumbs ol li + li {
-  padding-left: 10px;
-}
-
-.breadcrumbs ol li + li::before {
-  display: inline-block;
-  padding-right: 10px;
-  color: #0e2442;
-  content: "/";
 }
 
 @media (max-width: 768px) {
