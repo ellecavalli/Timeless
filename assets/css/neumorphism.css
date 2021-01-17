@@ -2,7 +2,14 @@
 # General
 --------------------------------------------------------------*/
 body {
-  color: blue;
+
+}
+
+#file {
+  border-radius: 50px;
+  background: #e0edd4;
+  box-shadow:  20px 20px 60px #bec9b4,
+               -20px -20px 60px #fffff4;
 }
 /*--------------------------------------------------------------
 # Jumbotron
