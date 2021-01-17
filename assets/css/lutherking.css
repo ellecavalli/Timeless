@@ -1,13 +1,13 @@
-@font-face { font-family: Martin-Luther; src: url(Martin-Luther_font/Martin Luther Expert 1.otf);}
-@font-face { font-family: Martin-Luther; src: url(Martin-Luther_font/Martin Luther Expert 2.otf);}
-@font-face { font-family: Martin-Luther; src: url(Martin-Luther_font/Martin Luther Historic.otf);}
-@font-face { font-family: Martin-Luther; src: url(Martin-Luther_font/Martin Luther PRO.otf);}
+@font-face { font-family: Martin Luther King; src: url(Martin-Luther_font/Martin Luther Expert 1.otf);}
+@font-face { font-family: Martin Luther King; src: url(Martin-Luther_font/Martin Luther Expert 2.otf);}
+@font-face { font-family: Martin Luther King; src: url(Martin-Luther_font/Martin Luther Historic.otf);}
+@font-face { font-family: Martin Luther King; src: url(Martin-Luther_font/Martin Luther PRO.otf);}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   margin: 0;
-  font-family: Martin-Luther
+  font-family: Martin Luther King
   font-size: 16px;
   font-weight: 200;
   line-height: 1.5;
