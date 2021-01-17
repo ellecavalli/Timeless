@@ -25,12 +25,6 @@ body {
     background-color: #e6e7ee;
 }
 
-#file {
-  border-radius: 50px;
-  background: #e6e7ee;
-  box-shadow:  25px 25px 60px #d9d9d9,
-                 -25px -25px 60px #ffffff;
-}
 /*--------------------------------------------------------------
 # Jumbotron
 --------------------------------------------------------------*/
