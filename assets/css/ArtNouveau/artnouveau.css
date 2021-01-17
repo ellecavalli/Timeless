@@ -1,10 +1,18 @@
 @font-face {
-  font-family: Normal;
+  font-family: Eckmann-Schrift;
   src: url("ECKMA.ttf");
 }
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+body {
+  margin: 0;
+  font-family: "Eckmann-Schrift";
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: left;
+  background-image: url("bg1.jpg");
+}
 
 /*--------------------------------------------------------------
 # Jumbotron
