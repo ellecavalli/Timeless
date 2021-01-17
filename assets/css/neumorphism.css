@@ -39,8 +39,6 @@ body {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 20px 0;
-  margin-bottom: 0;
   border-radius: 50px;
   background: #e6e7ee;
   box-shadow:  15px 15px 40px #d9d9d9,
@@ -50,7 +48,12 @@ body {
 /*--------------------------------------------------------------
 # Time options
 --------------------------------------------------------------*/
-
+.time {
+  border-radius: 50px;
+  background: #e6e7ee;
+  box-shadow:  25px 25px 60px #d9d9d9,
+               -25px -25px 60px #ffffff;
+}
 
 /*--------------------------------------------------------------
 # Side column choices
