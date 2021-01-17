@@ -88,10 +88,11 @@ p {
 # Sidebar
 --------------------------------------------------------------*/
 .tab-pane {
+  margin-top: 0px;
   border-radius: 20px;
   background: #e6e7ee;
-  box-shadow: 20px 20px 40px #c2c5ca,
-            -20px -20px 40px #ffffff;
+  box-shadow: inset 20px 20px 40px #c2c5ca,
+              inset -20px -20px 40px #ffffff;
 }
 /*--------------------------------------------------------------
 # Images
