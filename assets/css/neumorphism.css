@@ -15,9 +15,9 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
-    margin: 0;
+    margin: 3;
     font-family: "Nunito Sans", sans-serif;
-    font-size: 1rem;
+    font-size: 12px;
     font-weight: 300;
     line-height: 1.5;
     color: #44476A;
@@ -30,7 +30,6 @@ body {
   background: #e6e7ee;
   box-shadow:  25px 25px 60px #d9d9d9,
                  -25px -25px 60px #ffffff;
-  font-size: 25.5vw;
 }
 /*--------------------------------------------------------------
 # Jumbotron
