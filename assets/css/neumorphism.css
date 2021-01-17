@@ -59,57 +59,10 @@ p {
 /*--------------------------------------------------------------
 # Images
 --------------------------------------------------------------*/
-
+img {
+-webkit-filter: hue-rotate(185deg);
+    filter: hue-rotate(185deg);
+}
 /*--------------------------------------------------------------
 # Tables
 --------------------------------------------------------------*/
-table {
-  width: 600px;
-  border-spacing: 0;
-  color: #212121;
-  text-align: center;
-  overflow: hidden;
-  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
-  -9px -9px 16px rgba(255, 255, 255, 0.6);
-}
-table thead{
-  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6);
-}
-table th{
-  padding: 7px;
-}
-
-table>tbody>tr>td {
-  padding: 10px;
-  font-size: 14px;
-  position: relative;
-}
-
-table>tbody>tr:hover {
-  padding: 20px;
-  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
-  -9px -9px 16px rgba(255, 255, 255, 0.6);
-}
-
-table tr td:first-child::before {
-  content: "";
-  position: absolute;
-  padding: 7px;
-  top: 0;
-  left: -5000px;
-  width: 10000px;
-  height: 100%;
-  z-index: -10;
-}
-
-table td:hover::after {
-  content: "";
-  position: absolute;
-  box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
-  -9px -9px 16px rgba(255, 255, 255, 0.6);
-  left: 0;
-  top: -5000px;
-  height: 10000px;
-  width: 100%;
-  z-index: -1;
-}
