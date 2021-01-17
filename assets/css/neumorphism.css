@@ -138,15 +138,6 @@ table {
     border-top: 0.125rem solid #D1D9E6;
 }
 
-.table-sm th,
-.table-sm td {
-    padding: 0.3rem;
-}
-
-.table-hover tbody tr:hover {
-    color: #44476A;
-    background-color: rgba(38, 40, 51, 0.03);
-}
 @media (max-width: 575.98px) {
     .table-responsive-sm {
         display: block;
