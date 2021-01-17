@@ -46,6 +46,12 @@ p {
   box-shadow:  20px 20px 40px #c2c5ca,
                -20px -20px 40px #ffffff;
 }
+
+.jumbotron h1 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: 400
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
