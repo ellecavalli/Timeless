@@ -78,7 +78,7 @@ hr {
 figure img {
   border: 1px solid #ffffff;
   border-radius: 4px;
-  padding: 10px;
+  padding: 80px;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
@@ -86,7 +86,7 @@ figure img {
 }
 
 img {
-  -webkit-filter: grayscale(100%) blur(1px);
+  -webkit-filter: grayscale(100%) blur(01px);
     filter: grayscale(100%) blur(1px);
 }
 
