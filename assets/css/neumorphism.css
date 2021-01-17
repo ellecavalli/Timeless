@@ -116,92 +116,36 @@ img {
 /*--------------------------------------------------------------
 # Tables
 --------------------------------------------------------------*/
-table {
-    border-collapse: collapse;
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  right: 15px;
+  bottom: 15px;
+  background: linear-gradient(145deg, #fff2e5, #e6cbc1);
+  box-shadow:  5px 5px 10px #b39e96,
+               -5px -5px 10px #ffffff;
+  color: #fff;
+  transition: display 0.5s ease-in-out;
+  z-index: 99999;
 }
 
-.table {
-    width: 100%;
-    margin-bottom: 1rem;
-    color: #44476A;
-    background-color: transparent;
+.back-to-top i {
+  font-size: 24px;
+  position: absolute;
+  top: 7px;
+  left: 8px;
 }
 
-.table th,
-  .table td {
-    padding: 1rem;
-    vertical-align: top;
-    border-top: 0.0625rem solid #D1D9E6;
-}
-
-.table thead th {
-    vertical-align: bottom;
-    border-bottom: 0.125rem solid #D1D9E6;
-}
-
-.table tbody + tbody {
-    border-top: 0.125rem solid #D1D9E6;
-}
-
-@media (max-width: 575.98px) {
-    .table-responsive-sm {
-        display: block;
-        width: 100%;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    .table-responsive-sm > .table-bordered {
-        border: 0;
-    }
-}
-
-@media (max-width: 767.98px) {
-    .table-responsive-md {
-        display: block;
-        width: 100%;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    .table-responsive-md > .table-bordered {
-        border: 0;
-    }
-}
-
-@media (max-width: 991.98px) {
-    .table-responsive-lg {
-        display: block;
-        width: 100%;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    .table-responsive-lg > .table-bordered {
-        border: 0;
-    }
-}
-
-@media (max-width: 1199.98px) {
-    .table-responsive-xl {
-        display: block;
-        width: 100%;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    .table-responsive-xl > .table-bordered {
-        border: 0;
-    }
-}
-
-.table-responsive {
-    display: block;
-    width: 100%;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
-.table-responsive > .table-bordered {
-    border: 0;
+.back-to-top:hover {
+  color: #fff;
+  background: linear-gradient(145deg, #ffd2b7, #e6b09a);
+  box-shadow:  5px 5px 10px #b38978,
+               -5px -5px 10px #ffffde;
+  transition: background 0.2s ease-in-out;
 }
