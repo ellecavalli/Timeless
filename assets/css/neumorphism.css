@@ -26,9 +26,12 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     margin-top: 0;
-    margin-left: 5px;
-    margin_right: 5px;
     margin-bottom: 5px;
+}
+
+#article {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #file {
