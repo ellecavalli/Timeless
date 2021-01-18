@@ -10,6 +10,9 @@ body {
   text-align: left;
   background-color: #efdcbb;
 }
+hr {
+  font-family: AquilineTwo;
+  }
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
   margin-top: 0;
@@ -24,6 +27,14 @@ h1, h2, h3, h4, h5, h6 {
 a:hover {
   color: #cc0000;
   text-decoration: none;
+}
+#file {
+  font-family: AquilineTwo;
+  font-size: 14px;
+  font-weight: 200;
+  padding-right: 15px;
+	padding-left: 45px;
+	margin: 0px;
 }
 /*--------------------------------------------------------------
 # Jumbotron
