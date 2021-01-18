@@ -15,7 +15,7 @@ body {
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron{
-	background-image: url("oldpaper2.png");
+  background-image: url("oldpaper2.png");
   background-color: #efdcbb;
   border-radius: 3%;
   background-size: cover;
@@ -26,5 +26,37 @@ body {
   font-family: Medici;
   font-size: 40px;
   color: #cc0000;
+}
+/*--------------------------------------------------------------
+# Time options
+--------------------------------------------------------------*/
+.time #time-flters {
+  margin: 0 auto 5px auto;
+  list-style: none;
+  text-align: center;
+  font-family: AquilineTwo;
+  padding: 5px 8px;
+  background-color: #efdcbb;
+  background-image: url("border.jpg");
+}
+
+.time #time-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px 8px 15px;
+  font-size: 20px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #cc0000;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.time #time-flters li:hover, .time #time-flters li.filter-active {
+  color:  #cc0000;
+}
+
+.time #time-flters li:last-child {
+  margin-right: 0;
 }
 /*--------------------------------------------------------------
