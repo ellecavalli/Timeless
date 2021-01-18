@@ -62,11 +62,11 @@ function load(file) {
   });
 }
 
-//*function addIds() {
-//*  addId('.aside','aside')
-//*  addId('q.speech', 'speech')
-//*  addId('q:not(.speech)', 'quote')
-//*}
+function addIds() {
+  addId('.aside','aside')
+  addId('q.speech', 'speech')
+  addId('q:not(.speech)', 'quote')
+}
 
 function addId(what, prefix) {
   var id = '0'
@@ -75,11 +75,11 @@ function addId(what, prefix) {
     elements[i].id = prefix + "-" + id++
   }
 }
+
 function filltabs(){
   fillInfo("#file", "#info")
-  filltab("#file .aside","list-aside","#asides") //* fill it with person *//
-  filltab("#file q.speech","list-speech","#speeches") //* fill it with places *//
-  filltab("#file q:not(.speech)","list-quote","#quotes") //* fill it with dates *//
+  fillPerson("#file .person","list-person","#person")
+  fillPlaces("#file .places","list-places","#places")
 }
 
 function fillInfo(from, where) {
@@ -111,7 +111,20 @@ function fillInfo(from, where) {
   }))
 }
 
-function filltab(what,style,where) {
+function fillPerson(what,style,where) {
+  var list = `<li class="list $style"><a href="#" onclick="goto('$place')">$content</a></li>`
+  var elements = $(what);
+  $(where+' ul').empty();
+  for (var i=0; i<elements.length; i++) {
+    $(where+' ul').append(list.tpl({
+      style:style,
+      place: '#'+elements[i].id,
+      content: elements[i].innerHTML
+    }) )
+  }
+}
+
+function fillPlaces(what,style,where) {
   var list = `<li class="list $style"><a href="#" onclick="goto('$place')">$content</a></li>`
   var elements = $(what);
   $(where+' ul').empty();
