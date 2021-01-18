@@ -47,7 +47,8 @@ a:hover {
 .jumbotron{
 	background-image: url('timebg.jpg');
   background-color: #efdcbb;
-  background-size: contain;
+  border-radius: 30%;
+  background-size: auto;
   background-repeat: no-repeat;
 }
 
@@ -63,10 +64,12 @@ a:hover {
 /*--------------------------------------------------------------
 # Time options
 --------------------------------------------------------------*/
-#time-filters {
+.time {
   font-family: Eckmann-Schrift;
-  font-size: 20px;
-  background-image: url('timebg.jpg');
+  font-size: 35px;
+  color: #c87a2d;
+  background-color: #efdcbb;
+
 }
 /*--------------------------------------------------------------
 # Sidebar
@@ -77,7 +80,7 @@ a:hover {
   background-image: url('MuchaAdv.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right 25%center;
+  background-position: right 25%;
 }
 
 /*--------------------------------------------------------------
