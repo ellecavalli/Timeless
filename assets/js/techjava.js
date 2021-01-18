@@ -79,7 +79,7 @@ function addId(what, prefix) {
 function filltabs(){
   fillInfo("#file", "#info")
   fillPerson("#file .person","list-person","#person")
-  fillPlaces("#file .places","list-places","#places")
+  fillPlaces("#file .place","list-place","#place")
 }
 
 function fillInfo(from, where) {
