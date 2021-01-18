@@ -34,11 +34,6 @@ p {
   background-image: url('');
 }
 
-#sidebar {
-  font-family: Eckmann-Schrift;
-  font-size: 20px;
-  background-image: url('frameartnou.png');
-}
 /*--------------------------------------------------------------
 # Jumbotron
 --------------------------------------------------------------*/
@@ -68,7 +63,17 @@ p {
 /*--------------------------------------------------------------
 # Sidebar
 --------------------------------------------------------------*/
+#sidebar {
+  font-family: Eckmann-Schrift;
+  font-size: 20px;
+  background-image: url('');
+}
 
+#sidebar .lateral-img {
+  background-image: url('MuchaAdv.jpg');
+	background-repeat: no-repeat;
+  background-size: auto;
+}
 /*--------------------------------------------------------------
 # Images
 --------------------------------------------------------------*/
