@@ -5,9 +5,6 @@
 --------------------------------------------------------------*/
 body {
   margin: 0;
-  font-family: HomemadeApple-Regular;
-  font-size: 12px;
-  font-weight: 200;
   line-height: 1.5;
   color: #0066ff;
   text-align: left;
@@ -21,6 +18,7 @@ hr {
     height: 0;
     overflow: visible;
 	background-color: #ffebcd;
+	font-family: HomemadeApple-Regular;
 }
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -31,6 +29,22 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 16px;
+}
+a {
+  color: #bfbfbf;
+}
+
+a:hover {
+  color: #bfbfbf;
+  text-decoration: none;
+}
+#file {
+  font-family: HomemadeApple-Regular;
+  font-size: 12px;
+  font-weight: 200;
+  padding-right: 15px;
+	padding-left: 45px;
+	margin: 0px;
 }
 /*--------------------------------------------------------------
 # Jumbotron
