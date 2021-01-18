@@ -15,7 +15,7 @@ body {
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron{
-  background-image: url("oldpaper2.png");
+  background-image: url("border.jpg");
   background-color: #efdcbb;
   border-radius: 3%;
   background-size: cover;
@@ -44,7 +44,7 @@ body {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 100;
   line-height: 1;
   text-transform: uppercase;
