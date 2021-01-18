@@ -48,7 +48,7 @@ a:hover {
 	background-image: url('timebg.jpg');
   background-color: #efdcbb;
   border-radius: 30%;
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
