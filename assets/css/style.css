@@ -543,28 +543,23 @@ section {
 --------------------------------------------------------------*/
 .aside:before {
   content: " – ";
-  background-color: #ffffff;
 }
 .aside:after {
   content: " – ";
-  background-color: #ffffff;
 }
 
 q:before {
   content: "“";
-  background-color: #ffffff;
 }
 q:after {
   content: "”";
-  background-color: #ffffff;
 }
 q.speech:before {
   content: "«";
-  background-color: #ffffff;
 }
+
 q.speech:after {
   content: "»";
-  background-color: #ffffff;
 }
 
 .text-aside {
@@ -582,8 +577,8 @@ q.speech:after {
 # Images
 --------------------------------------------------------------*/
 .responsive {
-  max-width: 100%;
-  height: auto;
+  width: 50px;
+  height: 50px;
 }
 
 /*--------------------------------------------------------------
