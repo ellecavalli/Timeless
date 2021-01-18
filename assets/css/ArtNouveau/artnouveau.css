@@ -76,7 +76,7 @@ a:hover {
   background-image: url('MuchaAdv.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: right 25%center;
 }
 
 /*--------------------------------------------------------------
