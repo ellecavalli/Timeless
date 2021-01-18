@@ -64,8 +64,8 @@ body {
 # Images
 --------------------------------------------------------------*/
 figure img {
-  width: 160px;
-  height: 80px;
+  width: 400px;
+  height: 200px;
   background: #a84909;
   border-radius: 50%;
   margin-left: auto;
@@ -73,6 +73,6 @@ figure img {
   
 }
 img {
-	-webkit-filter: sepia(80%);
-          filter: sepia(80%);
+	-webkit-filter: sepia(80%) saturate(200%);
+          filter: sepia(80%) saturate(200%);
 }
