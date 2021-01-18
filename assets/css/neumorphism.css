@@ -4,9 +4,6 @@
 --------------------------------------------------------------*/
 body {
   margin: 0;
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 16px;
-  font-weight: 200;
   line-height: 1.5;
   color: #32344b;
   text-align: left;
@@ -14,9 +11,10 @@ body {
 }
 
 hr {
-    box-sizing: content-box;
-    height: 0;
-    overflow: visible;
+  font-family: "Nunito Sans", sans-serif;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,6 +29,9 @@ p {
 }
 
 #file {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
   border-radius: 30px;
   padding-right: 15px;
 	padding-left: 45px;
@@ -51,9 +52,11 @@ p {
 }
 
 .jumbotron h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
   margin-top: 0;
   margin-bottom: 8px;
-  font-weight: 400
 }
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -97,6 +100,11 @@ p {
 /*--------------------------------------------------------------
 # Sidebar
 --------------------------------------------------------------*/
+#sidebar {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+}
 
 /*--------------------------------------------------------------
 # Images
