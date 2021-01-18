@@ -346,10 +346,9 @@ section {
   padding-bottom: 30px;
 }
 
-div.gallery {
+/*div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
-  border-radius: 20%;
   float: left;
   width: 180px;
 }
