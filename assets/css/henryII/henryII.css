@@ -16,7 +16,7 @@ body {
 .jumbotron{
 	background-image: url("border");
   background-color: #efdcbb;
-  border-radius: 30%;
+  border-radius: 3%;
   background-size: cover;
   background-repeat: no-repeat;
 }
