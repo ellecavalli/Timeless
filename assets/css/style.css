@@ -20,6 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+  margin-left: 5px;
+  margin-right: 15px;
   text-align: justify;
 }
 
