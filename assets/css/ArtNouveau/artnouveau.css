@@ -42,6 +42,19 @@ a:hover {
 	margin: 0px;
 }
 
+/* For Mobile */
+@media only screen and (max-width: 600px) {
+  #file {
+    column-count: 1;
+    padding-right: 15px;
+    padding-left: 45px;
+    margin: 0px;
+  }
+  #sidebar {
+    background-image: none;
+  }
+}
+
 /*--------------------------------------------------------------
 # Jumbotron
 --------------------------------------------------------------*/
