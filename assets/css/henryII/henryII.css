@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400&display=swap');
+@font-face { font-family: AquilineTwo; src: url(AquilineTwo.ttf);}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
+	margin: 0;
+  font-family: AquilineTwo;
   background-image: url("old paper.png");
   background-color: #cccccc;
   font-family: "Lucida Console", "Courier New", monospace;
