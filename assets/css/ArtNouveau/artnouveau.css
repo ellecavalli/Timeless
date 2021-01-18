@@ -14,6 +14,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 8px;
+  font-family: Eckmann-Schrift;
+  font-size: 25px;
 }
 
 p {
@@ -30,11 +32,6 @@ p {
 	padding-left: 45px;
 	margin: 0px;
   background-image: url('');
-}
-
-#file h2 {
-  font-family: Eckmann-Schrift;
-  font-size: 25px;
 }
 
 #sidebar {
