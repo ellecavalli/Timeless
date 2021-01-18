@@ -57,7 +57,7 @@ p {
 /*--------------------------------------------------------------
 # Time options
 --------------------------------------------------------------*/
-#time .row {
+#time-filters {
   font-family: Eckmann-Schrift;
   font-size: 20px;
   background-image: url('timebg.jpg');
