@@ -43,8 +43,8 @@ p {
 .jumbotron{
 	background-image: url('timebg.jpg');
 	background-size: cover;
+  background-repeat: no-repeat;
   background-color: #fbebdc;
-	background-repeat: no-repeat;
 }
 
 .jumbotron  h1{
