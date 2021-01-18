@@ -8,7 +8,7 @@ body {
   margin: 0;
   line-height: 1.5;
   text-align: left;
-  background-color: #fef4c8;
+  background-color: #f9e8ca;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,7 +24,7 @@ p {
 #file {
   font-family: Eckmann-Schrift;
   font-size: 25px;
-  background-image: url(assets/css/ArtNouveau/frameartnou.png);
+  background-image: url('borderfloreal.jpg');
 }
 
 #sidebar {
@@ -35,14 +35,15 @@ p {
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron{
-	background-image: url('florealbg.jpg');
+	background-image: url('');
 	background-size: cover;
+  background-color: #f9e8ca;
 	background-repeat: no-repeat;
 }
 
 .jumbotron  h1{
   font-family: Eckmann-Schrift;
-  font-size: 40px;
+  font-size: 80px;
   color: #fff;
 }
 /*--------------------------------------------------------------
