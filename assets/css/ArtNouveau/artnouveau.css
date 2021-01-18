@@ -9,7 +9,7 @@ body {
   line-height: 1.5;
   text-align: left;
   background-image: url('borderfloreal.jpg');
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-color: #fbebdc;
 }
@@ -41,9 +41,7 @@ p {
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron{
-	background-image: url('timebg.jpg');
-	background-size: cover;
-  background-repeat: no-repeat;
+	background-image: url('');
   background-color: #fbebdc;
 }
 
@@ -59,7 +57,7 @@ p {
 /*--------------------------------------------------------------
 # Time options
 --------------------------------------------------------------*/
-.time {
+#time .row {
   font-family: Eckmann-Schrift;
   font-size: 20px;
   background-image: url('timebg.jpg');
@@ -70,14 +68,11 @@ p {
 #sidebar {
   font-family: Eckmann-Schrift;
   font-size: 20px;
-  background-image: url('');
-}
-
-#sidebar .lateral-img {
   background-image: url('MuchaAdv.jpg');
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: auto;
 }
+
 /*--------------------------------------------------------------
 # Images
 --------------------------------------------------------------*/
