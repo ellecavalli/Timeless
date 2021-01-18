@@ -1,4 +1,5 @@
 @font-face { font-family: AquilineTwo; src: url(AquilineTwo.ttf);}
+@font-face { font-family: Medici; src: url(MediciText.ttf);}
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -14,7 +15,7 @@ body {
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron{
-	background-image: url("border.jpg");
+	background-image: url("oldpaper2.png");
   background-color: #efdcbb;
   border-radius: 3%;
   background-size: cover;
@@ -22,8 +23,8 @@ body {
 }
 
 .jumbotron  h1{
-  font-family: AquilineTwo;
+  font-family: Medici;
   font-size: 40px;
-  color: #813c46;
+  color: #cc0000;
 }
 /*--------------------------------------------------------------
