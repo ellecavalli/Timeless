@@ -37,12 +37,13 @@ p {
 #sidebar {
   font-family: Eckmann-Schrift;
   font-size: 20px;
+  background-image: url('frameartnou.png');
 }
 /*--------------------------------------------------------------
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron{
-	background-image: url('frameartnou.png');
+	background-image: url('');
 	background-size: cover;
   background-color: #fbebdc;
 	background-repeat: no-repeat;
@@ -60,7 +61,10 @@ p {
 /*--------------------------------------------------------------
 # Time options
 --------------------------------------------------------------*/
-
+.time {
+  font-family: Eckmann-Schrift;
+  font-size: 20px;
+}
 /*--------------------------------------------------------------
 # Sidebar
 --------------------------------------------------------------*/
