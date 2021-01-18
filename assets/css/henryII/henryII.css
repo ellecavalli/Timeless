@@ -73,6 +73,6 @@ figure img {
   
 }
 img {
-	-webkit-filter: sepia(80%);
-          filter: sepia(80%);
+	-webkit-filter: sepia(80%) saturate(200%);
+          filter: sepia(80%) saturate(200%);
 }
