@@ -8,6 +8,9 @@ body {
   margin: 0;
   line-height: 1.5;
   text-align: left;
+  background-image: url('borderfloreal.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
   background-color: #fbebdc;
 }
 
@@ -38,7 +41,7 @@ p {
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron{
-	background-image: url('');
+	background-image: url('timebg.jpg');
 	background-size: cover;
   background-color: #fbebdc;
 	background-repeat: no-repeat;
@@ -59,6 +62,7 @@ p {
 .time {
   font-family: Eckmann-Schrift;
   font-size: 20px;
+  background-image: url('timebg.jpg');
 }
 /*--------------------------------------------------------------
 # Sidebar
