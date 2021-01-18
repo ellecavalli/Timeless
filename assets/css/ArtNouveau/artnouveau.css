@@ -53,6 +53,10 @@ a:hover {
   	margin: 0px;
   }
 
+  #sidebar background-image {
+    display: none;
+  }
+
 
 /*--------------------------------------------------------------
 # Jumbotron
