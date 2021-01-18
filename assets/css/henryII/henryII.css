@@ -18,6 +18,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: AquilineTwo;
   font-size: 25px;
   }
+  a {
+  color: #ddd;
+}
+
+a:hover {
+  color: #ddd;
+  text-decoration: none;
+}
 /*--------------------------------------------------------------
 # Jumbotron
 --------------------------------------------------------------*/
