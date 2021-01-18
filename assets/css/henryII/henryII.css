@@ -10,3 +10,20 @@ body {
   text-align: left;
   background-color: #efdcbb;
 }
+/*--------------------------------------------------------------
+# Jumbotron
+--------------------------------------------------------------*/
+.jumbotron{
+	background-image: url("border");
+  background-color: #efdcbb;
+  border-radius: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jumbotron  h1{
+  font-family: AquilineTwo;
+  font-size: 40px;
+  color: #813c46;
+}
+/*--------------------------------------------------------------
