@@ -8,7 +8,7 @@ body {
   margin: 0;
   line-height: 1.5;
   text-align: left;
-  background-color: #f6d8a4;
+  background-color: #efdcbb;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,7 +47,7 @@ a:hover {
 --------------------------------------------------------------*/
 .jumbotron{
 	background-image: url('');
-  background-color: #f6d8a4;
+  background-color: #efdcbb;
 }
 
 .jumbotron  h1{
@@ -74,8 +74,9 @@ a:hover {
   font-family: Eckmann-Schrift;
   font-size: 20px;
   background-image: url('MuchaAdv.jpg');
+  background-size: auto;
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: right center;
 }
 
 /*--------------------------------------------------------------
