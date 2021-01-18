@@ -43,7 +43,7 @@ a:hover {
 }
 
 /* For Mobile */
-@media screen and (max-width: 540px) {
+@media only screen and (max-width: 600px) {
   #file {
     column-count: 1;
     padding-right: 15px;
