@@ -62,11 +62,11 @@ function load(file) {
   });
 }
 
-function addIds() {
-  addId('.aside','aside')
-  addId('q.speech', 'speech')
-  addId('q:not(.speech)', 'quote')
-}
+//*function addIds() {
+//*  addId('.aside','aside')
+//*  addId('q.speech', 'speech')
+//*  addId('q:not(.speech)', 'quote')
+//*}
 
 function addId(what, prefix) {
   var id = '0'
