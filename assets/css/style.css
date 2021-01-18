@@ -353,18 +353,11 @@ div.gallery {
   width: 180px;
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
 div.gallery img {
   width: 100%;
-  height: auto;
+  height: 100px;
 }
 
-div.desc {
-  text-align: center;
-}
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
