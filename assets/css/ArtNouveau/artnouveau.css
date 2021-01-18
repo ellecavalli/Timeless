@@ -45,16 +45,14 @@ a:hover {
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron{
-	background-image: url('timebg.jpg');
   background-color: #efdcbb;
-  border-radius: 30%;
   background-size: auto;
   background-repeat: no-repeat;
 }
 
 .jumbotron  h1{
   font-family: Eckmann-Schrift;
-  font-size: 60px;
+  font-size: 50px;
   color: #813c46;
 }
 /*--------------------------------------------------------------
@@ -80,7 +78,7 @@ a:hover {
   background-image: url('MuchaAdv.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right 25%;
+  background-position: right center;
 }
 
 /*--------------------------------------------------------------
