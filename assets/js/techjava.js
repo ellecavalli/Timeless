@@ -79,7 +79,7 @@ function addId(what, prefix) {
 function filltabs(){
   fillInfo("#file", "#info")
   fillPerson("#file .person","list-person","#person")
-  fillPlaces("#file .places","list-places","#places")
+  fillPlaces("#file .place","list-place","#place")
 }
 
 function fillInfo(from, where) {
@@ -137,11 +137,11 @@ function fillPlaces(what,style,where) {
   }
 }
 
-function goto(id) {
-  var t = $(id)[0].offsetTop;
-  $('body').animate({ scrollTop: t }, 200);
-  $(id).addClass('animate');
-  setTimeout(function(){
-    $(id).removeClass('animate');
-  },5000);
+//*function goto(id) {
+//*  var t = $(id)[0].offsetTop;
+//*  $('body').animate({ scrollTop: t }, 200);
+//*  $(id).addClass('animate');
+//*  setTimeout(function(){
+//*    $(id).removeClass('animate');
+//*  },5000);
 }
