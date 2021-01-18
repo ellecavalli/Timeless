@@ -64,8 +64,8 @@ body {
 # Images
 --------------------------------------------------------------*/
 figure img {
-  width: 200px;
-  height: 100px;
+  width: 400px;
+  height: 200px;
   background: #a84909;
   border-radius: 50%;
   margin-left: auto;
