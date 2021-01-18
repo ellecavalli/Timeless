@@ -27,6 +27,7 @@ p {
 a {
   color: #7c8254;
 }
+
 a:hover {
   color: #7c8254;
   text-decoration: none;
@@ -46,12 +47,16 @@ a:hover {
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron{
+	background-image: url('');
   background-color: #efdcbb;
+  border-radius: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .jumbotron  h1{
   font-family: Floreal;
-  font-size: 60px;
+  font-size: 40px;
   color: #813c46;
 }
 /*--------------------------------------------------------------
