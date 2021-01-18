@@ -5,7 +5,8 @@
 body {
 	margin: 0;
   font-family: AquilineTwo;
-  background-image: url("old paper.png");
-  background-color: #cccccc;
-  font-family: "Lucida Console", "Courier New", monospace;
+  background-image: url("oldpaper2.png");
+  line-height: 1.5;
+  text-align: left;
+  background-color: #efdcbb;
 }
