@@ -42,21 +42,19 @@ a:hover {
 	margin: 0px;
 }
 
-@media screen and (min-width: 351px){
-
+/* For Mobile */
+@media screen and (max-width: 540px) {
   #file {
-    font-family: Eckmann-Schrift;
-    font-size: 15px;
     column-count: 1;
     padding-right: 15px;
-  	padding-left: 45px;
-  	margin: 0px;
+    padding-left: 45px;
+    margin: 0px;
   }
 
   #sidebar background-image {
     display: none;
   }
-
+}
 
 /*--------------------------------------------------------------
 # Jumbotron
