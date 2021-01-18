@@ -5,7 +5,6 @@
 --------------------------------------------------------------*/
 body {
 	margin: 0;
-  font-family: AquilineTwo;
   background-image: url("oldpaper2.png");
   line-height: 1.5;
   text-align: left;
@@ -109,7 +108,7 @@ img {
   right: 15px;
   bottom: 15px;
   background-image: url("border2.jpg");
-  background: #7c8254;
+  background: #efdcbb;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -124,6 +123,6 @@ img {
 
 .back-to-top:hover {
   color: #fff;
-  background: #c87a2d;
+  background: #efdcbb;
   transition: background 0.2s ease-in-out;
 }
