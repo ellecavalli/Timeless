@@ -1,5 +1,6 @@
 @font-face { font-family: Eckmann-Schrift; src: url(eckmann_font/ECKMA.ttf);}
 @font-face { font-family: Eckmann-Schrift; src: url(eckmann_font/ECKMANN.ttf);}
+@font-face { font-family: Floreal; src: url(floreal_font/floralcapsnouveau.ttf)};
 
 /*--------------------------------------------------------------
 # General
@@ -45,15 +46,11 @@ a:hover {
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron{
-	background-image: url('timebg.jpg');
   background-color: #efdcbb;
-  border-radius: 30%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .jumbotron  h1{
-  font-family: Eckmann-Schrift;
+  font-family: Floreal;
   font-size: 60px;
   color: #813c46;
 }
