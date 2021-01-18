@@ -48,7 +48,7 @@ a:hover {
   background-color: #efdcbb;
   background-image: url("frameartnou.png");
   background: transform(90deg);
-  background-size: contain;
+  background-size: auto;
   background-repeat: no-repeat;
 }
 
