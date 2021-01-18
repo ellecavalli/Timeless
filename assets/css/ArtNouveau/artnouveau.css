@@ -62,12 +62,33 @@ a:hover {
 /*--------------------------------------------------------------
 # Time options
 --------------------------------------------------------------*/
-.time {
+.time #time-flters {
+  margin: 0 auto 5px auto;
+  list-style: none;
+  text-align: center;
   font-family: Eckmann-Schrift;
-  font-size: 35px;
-  color: #c87a2d;
+  padding: 2px 5px;
   background-color: #efdcbb;
+}
 
+.time #time-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px 8px 15px;
+  font-size: 20px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #c87a2d;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.time #time-flters li:hover, .time #time-flters li.filter-active {
+  color:  #7c8254;
+}
+
+.time #time-flters li:last-child {
+  margin-right: 0;
 }
 /*--------------------------------------------------------------
 # Sidebar
