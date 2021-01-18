@@ -74,7 +74,7 @@ a:hover {
   font-family: Eckmann-Schrift;
   font-size: 20px;
   background-image: url('MuchaAdv.jpg');
-  background-size: auto;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: right center;
 }
