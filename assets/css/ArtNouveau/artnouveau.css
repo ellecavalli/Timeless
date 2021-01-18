@@ -39,15 +39,16 @@ a:hover {
   padding-right: 15px;
 	padding-left: 45px;
 	margin: 0px;
-  background-image: url('');
 }
 
 /*--------------------------------------------------------------
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron{
-	background-image: url('');
+	background-image: url('timebg.jpg');
   background-color: #efdcbb;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .jumbotron  h1{
