@@ -346,19 +346,6 @@ section {
   padding-bottom: 30px;
 }
 
-div.gallery {
-  display: inline-block;
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
