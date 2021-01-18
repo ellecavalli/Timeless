@@ -8,10 +8,7 @@ body {
   margin: 0;
   line-height: 1.5;
   text-align: left;
-  background-image: url('borderfloreal.jpg');
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-color: #fbebdc;
+  background-color: #f6d8a4;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,6 +21,14 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 16px;
+}
+
+a {
+  color: #765718;
+}
+a:hover {
+  color: #765718;
+  text-decoration: none;
 }
 
 #file {
@@ -42,13 +47,13 @@ p {
 --------------------------------------------------------------*/
 .jumbotron{
 	background-image: url('');
-  background-color: #fbebdc;
+  background-color: #f6d8a4;
 }
 
 .jumbotron  h1{
   font-family: Eckmann-Schrift;
   font-size: 60px;
-  color: #fff;
+  color: #813c46;
 }
 /*--------------------------------------------------------------
 # Breadcrumbs
