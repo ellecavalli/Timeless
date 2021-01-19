@@ -69,6 +69,8 @@ a:hover {
 .jumbotron  h1{
   font-family: Eckmann-Schrift;
   font-size: 50px;
+  padding-right: 20px;
+	padding-left: 50px;
   color: #813c46;
 }
 
