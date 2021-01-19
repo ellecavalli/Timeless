@@ -112,7 +112,7 @@ function fillInfo(from, where) {
 }
 
 function fillPerson(what,style,where) {
-  var list = `<li class="list $style"><a href="#" onclick="goto('$place')">$content</a></li>`
+  var list = `<li class="list $style"> $content</li>`
   var elements = $(what);
   $(where+' ul').empty();
   for (var i=0; i<elements.length; i++) {
@@ -125,7 +125,7 @@ function fillPerson(what,style,where) {
 }
 
 function fillPlaces(what,style,where) {
-  var list = `<li class="list $style"><a href="#" onclick="goto('$place')">$content</a></li>`
+  var list = `<li class="list $style"> $content</li>`
   var elements = $(what);
   $(where+' ul').empty();
   for (var i=0; i<elements.length; i++) {
@@ -137,11 +137,11 @@ function fillPlaces(what,style,where) {
   }
 }
 
-function goto(id) {
-  var t = $(id)[0].offsetTop;
-  $('body').animate({ scrollTop: t }, 200);
-  $(id).addClass('animate');
-  setTimeout(function(){
-    $(id).removeClass('animate');
-  },5000);
-}
+//function goto(id) {
+//  var t = $(id)[0].offsetTop;
+//  $('body').animate({ scrollTop: t }, 200);
+//  $(id).addClass('animate');
+//  setTimeout(function(){
+//    $(id).removeClass('animate');
+//  },5000);
+//}
