@@ -57,7 +57,7 @@ a:hover {
 }
 .jumbotron  h1{
   font-family: MartinLuther;
-  font-size: 40px;
+  font-size: 20px;
   color: #0066ff;
 }
 /*--------------------------------------------------------------
@@ -103,7 +103,7 @@ a:hover {
 --------------------------------------------------------------*/
 #sidebar {
   font-family: MartinLuther;
-  font-size: 20px;
+  font-size: 10px;
 }
 /*--------------------------------------------------------------
 # Images
