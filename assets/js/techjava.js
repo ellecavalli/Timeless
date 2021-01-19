@@ -136,3 +136,8 @@ function fillPlaces(what,style,where) {
     }) )
   }
 }
+
+// why they don't work?
+// var date = $(from + ' .publicationDate')[0].innerText
+// var source = $(from + ' meta[name="DC.identifier"]').prop('content')
+// 
