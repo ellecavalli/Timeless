@@ -136,12 +136,3 @@ function fillPlaces(what,style,where) {
     }) )
   }
 }
-
-//function goto(id) {
-//  var t = $(id)[0].offsetTop;
-//  $('body').animate({ scrollTop: t }, 200);
-//  $(id).addClass('animate');
-//  setTimeout(function(){
-//    $(id).removeClass('animate');
-//  },5000);
-//}
