@@ -49,7 +49,8 @@ a:hover {
 
 .jumbotron  h1{
   font-family: AquilineTwo;
-  font-size: 40px;
+  font-weight: 300;
+  font-size: 45px;
   color: #black;
 }
 /*--------------------------------------------------------------
