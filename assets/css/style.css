@@ -346,6 +346,17 @@ section {
   padding-bottom: 30px;
 }
 
+.gallery-image {
+  float: left;
+  width: 20%;
+  pagging: 5px;
+}
+
+.gallery::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
