@@ -40,7 +40,7 @@ a:hover {
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron{
-  background-image: url("border.jpg");
+  background-image: url("henrystamp.jpg");
   background-color: #efdcbb;
   border-radius: 50%;
   background-size: cover;
@@ -49,7 +49,7 @@ a:hover {
 
 .jumbotron  h1{
   font-family: Medici;
-  font-size: 40px;
+  font-size: 20px;
   color: #cc0000;
 }
 /*--------------------------------------------------------------
