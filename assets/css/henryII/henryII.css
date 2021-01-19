@@ -42,7 +42,7 @@ a:hover {
 .jumbotron{
   background-color:  rgba(0,0,0,0,0); 
   border-radius: 30%;
-  background-size: 100% 80%;
+  background-size: 100% 110%;
   background-repeat: no-repeat;
   background-image: url("map.jpg");
 }
@@ -69,7 +69,7 @@ a:hover {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 100;
   line-height: 1;
   text-transform: uppercase;
