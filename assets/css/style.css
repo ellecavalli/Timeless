@@ -346,7 +346,41 @@ section {
   padding-bottom: 30px;
 }
 
-.gallery-image {
+.gallery-image1 {
+  content: url('assets/css/henryII/henryimg/notes.jpg');
+  width: 100%;
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+.gallery-image2 {
+  content: url('assets/css/henryII/henryimg/letter.jpg');
+  width: 100%;
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+.gallery-image3 {
+  content: url('assets/css/henryII/henryimg/king henry 11 letter.jpg');
+  width: 100%;
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+.gallery-image4 {
+  content: url('assets/css/henryII/henryimg/map2.jpg');
+  width: 100%;
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+.gallery-image5 {
+  content: url('assets/css/henryII/henryimg/map.jpg');
+  width: 100%;
   float: left;
   width: 20%;
   padding: 5px;
