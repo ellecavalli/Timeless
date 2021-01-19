@@ -86,10 +86,10 @@ function fillInfo(from, where) {
   var item = `
     <p class="list title"><b>Title: </b>$title</p>
     <p class="list author"><b>Author: </b>$author</p>
-    <p class="list author"><b>Date: </b>$date</p>
-    <p class="list author"><b>Source: </b>$source</p>
-    <p class="list author"><b>Headings: </b><ul>$headings</ul></p>
-    <p class="list author"><b>Keywords: </b><ul>$keywords</ul></p>
+    <p class="list date"><b>Date: </b>$date</p>
+    <p class="list source"><b>Source: </b>$source</p>
+    <p class="list headings"><b>Headings: </b><ul>$headings</ul></p>
+    <p class="list keywords"><b>Keywords: </b><ul>$keywords</ul></p>
     ` ;
   $(where).empty();
 
