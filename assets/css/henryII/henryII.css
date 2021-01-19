@@ -44,12 +44,13 @@ a:hover {
   border-radius: 0%;
   background-size: cover;
   background-repeat: no-repeat;
+  background-image: url("sealingwax.png");
 }
 
 .jumbotron  h1{
   font-family: Medici;
   font-size: 20px;
-  color: #cc0000;
+  color: #black;
 }
 /*--------------------------------------------------------------
 # Time options
