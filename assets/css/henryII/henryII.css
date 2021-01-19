@@ -65,6 +65,7 @@ a:hover {
   padding: 2px 5px;
   background-color: #cc0000;
   background-image: url("oldpaper2.png");
+  background-size: 100% 130%;
 }
 
 .time #time-flters li {
