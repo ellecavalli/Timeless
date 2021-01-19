@@ -349,7 +349,7 @@ section {
 .gallery-image {
   float: left;
   width: 20%;
-  pagging: 5px;
+  padding: 5px;
 }
 
 .gallery::after {
