@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 8px;
   font-family: MartinLuther;
   font-size: 15px;
+  line-height: 50%;
 }
 p {
   margin-top: 0;
