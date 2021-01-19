@@ -41,7 +41,7 @@ a:hover {
 --------------------------------------------------------------*/
 .jumbotron{
   background-color:  rgba(0,0,0,0,0); 
-  border-radius: 30%;
+  border-radius: 3%;
   background-size: 100% 130%;
   background-repeat: no-repeat;
   background-image: url("map.jpg");
