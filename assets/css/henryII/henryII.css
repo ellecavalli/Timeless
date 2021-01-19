@@ -48,8 +48,8 @@ a:hover {
 }
 
 .jumbotron  h1{
-  font-family: Medici;
-  font-size: 20px;
+  font-family: AquilineTwo;
+  font-size: 40px;
   color: #black;
 }
 /*--------------------------------------------------------------
@@ -62,7 +62,7 @@ a:hover {
   font-family: Medici;
   padding: 5px 8px;
   background-color: #efdcbb;
-  background-image: url("border.jpg");
+  background-image: url("oldpaper2.png");
 }
 
 .time #time-flters li {
