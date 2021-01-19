@@ -62,7 +62,7 @@ a:hover {
 .jumbotron{
   background-color: #efdcbb;
   background-image: url("frame1.png");
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
 }
 
