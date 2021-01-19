@@ -24,7 +24,7 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 8px;
-  font-family: HomemadeApple-Regular;
+  font-family: MartinLuther;
   font-size: 25px;
 }
 p {
@@ -40,7 +40,7 @@ a:hover {
   text-decoration: none;
 }
 #file {
-  font-family: HomemadeApple-Regular;
+  font-family: MartinLuther;
   font-size: 12px;
   font-weight: 200;
   padding-right: 15px;
