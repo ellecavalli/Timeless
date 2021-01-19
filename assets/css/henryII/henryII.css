@@ -40,9 +40,8 @@ a:hover {
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron{
-  background-image: url("henrystamp.jpg");
-  background-color: #efdcbb;
-  border-radius: 50%;
+  background-color:  rgba(0,0,0,0,0); 
+  border-radius: 0%;
   background-size: cover;
   background-repeat: no-repeat;
 }
