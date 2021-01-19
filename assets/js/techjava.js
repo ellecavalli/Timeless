@@ -86,6 +86,8 @@ function fillInfo(from, where) {
   var item = `
     <p class="list title"><b>Title: </b> $title</p>
     <p class="list author"><b>Author: </b> $author</p>
+    <p class="list author"><b>Date: </b> $date</p>
+    <p class="list author"><b>Source: </b> $source</p>
     <p class="list author"><b>Headings: </b><ul>$headings</ul></p>
     <p class="list author"><b>Keywords: </b><ul>$keywords</ul></p>
     ` ;
@@ -93,6 +95,8 @@ function fillInfo(from, where) {
 
   var title = $(from + ' h1')[0].innerText
   var author = $(from + ' .byline')[0].innerText
+  var date = $(from + ' .publicationDate')[0].innerText
+  var date = $(from + ' meta name=[DC.identifier]').prop('content')
   var headingList = $(from + ' h2')
   var keywordList = $(from + ' meta[name="keywords"]').prop('content').split(', ')
   var headings = ""
@@ -106,6 +110,8 @@ function fillInfo(from, where) {
   $(where).append(item.tpl( {
     author: author,
     title: title,
+    date: date,
+    source: source,
     headings: headings,
     keywords: keywords
   }))
