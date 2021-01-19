@@ -70,7 +70,8 @@ a:hover {
   font-family: Eckmann-Schrift;
   font-size: 50px;
   padding-right: 20px;
-	padding-left: 50px;
+	padding-left: 45px;
+  text-align: center;
   color: #813c46;
 }
 
