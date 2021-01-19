@@ -40,13 +40,10 @@ a:hover {
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron{
-  background-color: #000;
+  background-color:  rgba(0,0,0,0,0); 
   border-radius: 0%;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
-  width: 50%;
-  height: 50%;
 }
 
 .jumbotron  h1{
