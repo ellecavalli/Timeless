@@ -134,7 +134,7 @@ img {
   background-color: transparent;
 }
 #file tr:nth-child(odd) {
-  background-color: transparent;
+  background-color: #faebd7;
 }
 
 /*--------------------------------------------------------------
