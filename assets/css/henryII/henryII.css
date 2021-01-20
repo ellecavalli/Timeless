@@ -60,7 +60,6 @@ a:hover {
   list-style: none;
   text-align: center;
   font-family: AquilineTwo;
-  border-radius: 1px;
   padding: 2px 5px;
   background-color: #cc0000;
   background-image: url("oldpaper2.png");
@@ -68,14 +67,14 @@ a:hover {
 }
 
 .time #time-flters li {
-  cursor: grab;
+  cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 1;
   text-transform: uppercase;
   color: #cc0000;
-  margin-bottom: 1px;
+  margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
