@@ -133,9 +133,6 @@ img {
   padding: 8px;
   background-color: transparent;
 }
-#file tr:nth-child(odd) {
-  background-color: #faebd7;
-}
 
 /*--------------------------------------------------------------
 # Back to top button
