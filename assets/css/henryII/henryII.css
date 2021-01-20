@@ -4,7 +4,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-	margin: 0;
+  margin: 0;
   background-image: url("oldpaper2.png");
   line-height: 1.5;
   text-align: left;
@@ -32,8 +32,8 @@ a:hover {
   font-family: AquilineTwo;
   font-size: 20px;
   padding-right: 15px;
-	padding-left: 45px;
-	margin: 0px;
+  padding-left: 45px;
+  margin: 0px;
 }
 /*--------------------------------------------------------------
 # Jumbotron
@@ -113,11 +113,11 @@ img {
 # Tables
 --------------------------------------------------------------*/
 #file table {
-	max-width: 100%;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-	border-collapse: collapse;
-	width: 100%;
+  border-collapse: collapse;
+  width: 100%;
   border-radius: 1px;
   color: #212121;
   text-align: center;
