@@ -133,9 +133,6 @@ img {
   padding: 8px;
 }
 
-#file tr:nth-child(even) {
-  background-color: transparent;
-}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
