@@ -126,7 +126,7 @@ img {
   background-color: transparent;
 }
 
-#file th, td {
+#file th, td, tr {
   text-align: left;
   padding: 8px;
   background-color: transparent;
