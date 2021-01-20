@@ -131,6 +131,7 @@ img {
 #file th, td {
   text-align: left;
   padding: 8px;
+  background-color: transparent;
 }
 
 /*--------------------------------------------------------------
