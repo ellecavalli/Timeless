@@ -83,8 +83,8 @@ a:hover {
   cursor: grab;
   display: inline-block;
   padding: 10px 15px 8px 15px;
-  font-size: 14px;
-  line-height: 1;
+  font-size: 20px;
+  line-height: 2;
   text-transform: uppercase;
   color: #0066ff;
   margin-bottom: 5px;
