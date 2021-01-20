@@ -112,6 +112,29 @@ img {
 /*--------------------------------------------------------------
 # Tables
 --------------------------------------------------------------*/
+#file table {
+	max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+	border-collapse: collapse;
+	width: 100%;
+  border-radius: 1px;
+  color: #212121;
+  text-align: center;
+}
+
+#file th {
+  padding: 7px;
+  background-color: transparent;
+}
+
+#file th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+#file tr:nth-child(even) {
+  background-color: transparent;
 }
 /*--------------------------------------------------------------
 # Back to top button
