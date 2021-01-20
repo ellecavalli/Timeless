@@ -4,7 +4,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-	margin: 0;
+  margin: 0;
   background-image: url("oldpaper2.png");
   line-height: 1.5;
   text-align: left;
@@ -26,30 +26,29 @@ h1, h2, h3, h4, h5, h6 {
 
 a:hover {
   color: #cc0000;
-  text-decoration: none;
 }
 #file {
   font-family: AquilineTwo;
   font-size: 20px;
-  font-weight: 200;
   padding-right: 15px;
-	padding-left: 45px;
-	margin: 0px;
+  padding-left: 45px;
+  margin: 0px;
 }
 /*--------------------------------------------------------------
 # Jumbotron
 --------------------------------------------------------------*/
 .jumbotron{
   background-color:  rgba(0,0,0,0,0); 
-  border-radius: 30%;
-  background-size: 100% 100%
+  border-radius: 3%;
+  background-size: 100% 130%;
   background-repeat: no-repeat;
   background-image: url("map.jpg");
 }
 
 .jumbotron  h1{
   font-family: AquilineTwo;
-  font-size: 40px;
+  font-weight: 300;
+  font-size: 45px;
   color: #black;
 }
 /*--------------------------------------------------------------
@@ -59,18 +58,18 @@ a:hover {
   margin: 0 auto 5px auto;
   list-style: none;
   text-align: center;
-  font-family: Medici;
-  padding: 5px 8px;
-  background-color: #efdcbb;
+  font-family: AquilineTwo;
+  padding: 2px 5px;
+  background-color: #cc0000;
   background-image: url("oldpaper2.png");
+  background-size: 100% 130%;
 }
 
 .time #time-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
-  font-size: 20px;
-  font-weight: 100;
+  font-size: 23px;
   line-height: 1;
   text-transform: uppercase;
   color: #cc0000;
@@ -84,6 +83,13 @@ a:hover {
 
 .time #time-flters li:last-child {
   margin-right: 0;
+}
+/*--------------------------------------------------------------
+# Sidebar
+--------------------------------------------------------------*/
+#sidebar {
+  font-family: AquilineTwo;
+  font-size: 20px;
 }
 /*--------------------------------------------------------------
 # Images
@@ -104,7 +110,28 @@ img {
 /*--------------------------------------------------------------
 # Tables
 --------------------------------------------------------------*/
+#file table {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 1px;
+  color: #212121;
+  text-align: center;
 }
+
+#file th {
+  padding: 7px;
+  background-color: transparent;
+}
+
+#file th, td {
+  text-align: left;
+  padding: 8px;
+  background-color: transparent;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
